@@ -1,0 +1,32 @@
+[
+  {
+    "id": "9990001",
+    "categoryId": "48",
+    "categorySlug": "bong-da",
+    "title": "Tiêu đề bài viết bóng đá mẫu",
+    "summary": "Đây là phần tóm tắt minh họa để nhóm xây dựng giao diện.",
+    "image": "",
+    "url": "/bong-da/bai-viet-mau-c48a9990001.html",
+    "pubDate": "2026-10-29T08:00:00+07:00"
+  },
+  {
+    "id": "9990002",
+    "categoryId": "407",
+    "categorySlug": "thoi-trang-hi-tech",
+    "title": "Tiêu đề bài viết Hi-tech mẫu",
+    "summary": "Dữ liệu mẫu dùng để kiểm tra hiển thị ảnh, tiêu đề và tóm tắt.",
+    "image": "",
+    "url": "/thoi-trang-hi-tech/bai-viet-mau-c407a9990002.html",
+    "pubDate": "2026-10-29T09:00:00+07:00"
+  },
+  {
+    "id": "9990003",
+    "categoryId": "46",
+    "categorySlug": "tin-tuc",
+    "title": "Tiêu đề tin tức mẫu",
+    "summary": "Đây chưa phải dữ liệu lấy từ RSS thật.",
+    "image": "",
+    "url": "/tin-tuc/bai-viet-mau-c46a9990003.html",
+    "pubDate": "2026-10-29T10:00:00+07:00"
+  }
+]

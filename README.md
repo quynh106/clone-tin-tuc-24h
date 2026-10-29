@@ -1,16 +1,71 @@
-# React + Vite
+# Clone Tin Tức 24h
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bài tập lớn môn Lập trình Front-End — xây dựng website tin tức lấy cảm hứng từ 24h.com.vn bằng ReactJS.
 
-Currently, two official plugins are available:
+## 1. Mục tiêu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Xây dựng giao diện website tin tức bằng ReactJS.
+- Hiển thị tin tức từ RSS sau khi xác minh nguồn dữ liệu.
+- Sử dụng React Router để điều hướng giữa các trang.
+- Thực hành làm việc nhóm và quản lý mã nguồn bằng GitHub.
 
-## React Compiler
+## 2. Phạm vi dự án
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Trang chủ (HomePage).
+- Trang chuyên mục (CategoryPage).
+- Trang chi tiết bài viết (ArticlePage).
+- Các component giao diện dùng chung.
 
-## Expanding the ESLint configuration
+## 3. Công nghệ
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ReactJS
+- Vite
+- JavaScript
+- React Router
+- HTML, CSS
+- RSS
+
+## 4. Cài đặt và chạy dự án
+
+Yêu cầu: Node.js và npm đã được cài đặt.
+
+```bash
+npm install
+npm run dev
+```
+
+Mở địa chỉ localhost do Vite hiển thị trong Terminal.
+
+## 5. Phân công thành viên
+
+### Thành viên A
+
+- Xử lý RSS và dữ liệu tin tức.
+- Xây dựng services, hooks và utils liên quan.
+- Xây dựng trang chi tiết bài viết.
+
+### Thành viên B
+
+- Xây dựng router và cấu hình chuyên mục.
+- Xây dựng Header, menu, Footer và layout.
+- Xây dựng trang chuyên mục.
+
+### Thành viên C
+
+- Xây dựng trang chủ.
+- Xây dựng ArticleCard và các component dùng chung.
+- Phụ trách CSS và giao diện responsive.
+
+## 6. Quy tắc làm việc với Git
+
+- Không push trực tiếp lên nhánh main.
+- Mỗi người tạo một branch riêng.
+- Tạo Pull Request (PR) để đưa code vào main.
+- Nhờ ít nhất một thành viên khác review trước khi merge.
+- Không tự ý ghi đè hoặc xóa code của thành viên khác.
+- Báo nhóm trước khi chỉnh sửa file dùng chung như router.jsx và package.json.
+- Commit theo mẫu: feat:, fix:, style:, refactor:, docs:.
+
+## 7. Trạng thái
+
+Dự án đã khởi tạo bằng React và Vite. Các trang, chức năng RSS và giao diện sẽ được phát triển theo từng giai đoạn.

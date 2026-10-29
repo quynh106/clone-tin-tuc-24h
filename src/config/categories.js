@@ -1,0 +1,58 @@
+export const CATEGORIES = [
+  {
+    id: "46",
+    slug: "tin-tuc",
+    name: "Tin tức",
+    path: "/tin-tuc-c46.html",
+    rssUrl: "https://cdn.24h.com.vn/upload/rss/tintuctrongngay.rss",
+  },
+  {
+    id: "48",
+    slug: "bong-da",
+    name: "Bóng đá",
+    path: "/bong-da-c48.html",
+    rssUrl: "https://cdn.24h.com.vn/upload/rss/bongda.rss",
+  },
+  {
+    id: "161",
+    slug: "kinh-doanh",
+    name: "Kinh doanh",
+    path: "/kinh-doanh-c161.html",
+    rssUrl: null,
+  },
+  {
+    id: "731",
+    slug: "giai-tri",
+    name: "Giải trí",
+    path: "/giai-tri-c731.html",
+    rssUrl: null,
+  },
+  {
+    id: "62",
+    slug: "suc-khoe",
+    name: "Sức khỏe",
+    path: "/suc-khoe-c62.html",
+    rssUrl: "https://cdn.24h.com.vn/upload/rss/suckhoidoisong.rss",
+  },
+  {
+    id: "407",
+    slug: "thoi-trang-hi-tech",
+    name: "Hi-tech",
+    path: "/thoi-trang-hi-tech-c407.html",
+    rssUrl: "https://cdn.24h.com.vn/upload/rss/thoitranghitech.rss",
+  },
+  {
+    id: "415",
+    slug: "the-gioi",
+    name: "Thế giới",
+    path: "/the-gioi-c415.html",
+    rssUrl: null,
+  },
+  {
+    id: "101",
+    slug: "the-thao",
+    name: "Thể thao",
+    path: "/the-thao-c101.html",
+    rssUrl: "https://cdn.24h.com.vn/upload/rss/thethao.rss",
+  },
+];
