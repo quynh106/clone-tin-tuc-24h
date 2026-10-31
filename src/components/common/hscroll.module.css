@@ -1,0 +1,12 @@
+.wrap { position: relative; }
+.track { display: flex; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; }
+.track::-webkit-scrollbar { display: none; }
+.track > * { flex: 0 0 auto; scroll-snap-align: start; }
+.btn { position: absolute; top: 50%; z-index: 2; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; padding: 0; background: #fff; border: 1px solid #e1e1e1; border-radius: 999px; cursor: pointer; transform: translateY(-50%); transition: all .3s ease; }
+.prev { left: 10px; }
+.next { right: 10px; }
+.arrow { display: inline-block; padding: 4px; border: solid #252525; border-width: 0 2px 2px 0; }
+.prev .arrow { margin-right: -4px; transform: rotate(135deg); }
+.next .arrow { margin-left: -4px; transform: rotate(-45deg); }
+.btn:hover { background: #78b43d; border-color: #78b43d; }
+.btn:hover .arrow { border-color: #fff; }
