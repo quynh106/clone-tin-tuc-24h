@@ -1,0 +1,48 @@
+.card { display: flex; min-width: 0; }
+.vertical { flex-direction: column; gap: 10px; }
+.horizontal { flex-direction: row; align-items: flex-start; gap: 15px; }
+
+.thumbLink { display: block; flex-shrink: 0; overflow: hidden; background: var(--color-bg-soft, #f4f4f4); }
+.thumb { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .3s; }
+.thumbLink:hover .thumb { transform: scale(1.04); }
+.horizontal .thumbLink { width: 245px; }
+.horizontal .thumb { aspect-ratio: 245 / 153; }
+.horizontal.small { gap: 10px; }
+.horizontal.small .thumbLink { width: 112px; }
+.horizontal.small .thumb { aspect-ratio: 112 / 75; }
+
+.body { min-width: 0; flex: 1; }
+.category { display: inline-block; margin-bottom: 4px; font-size: 12px; font-weight: 400; color: var(--color-24h, #78b43d); }
+.title { font-size: 15px; font-weight: 500; line-height: 20px; color: var(--color-main, #252525); }
+.horizontal .title { font-size: 18px; line-height: 24px; }
+.small .title { font-size: 14px; line-height: 20px; }
+.title a:hover { color: var(--color-24h, #78b43d); }
+.summary {
+  margin-top: 6px; font-size: 13px; line-height: 18px; color: var(--color-sum, #7d7d7d);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.time { display: block; margin-top: 4px; font-size: 12px; color: var(--color-muted, #959595); }
+
+/* overlay */
+.overlay { position: relative; overflow: hidden; background: #111; }
+.overlayLink { position: relative; display: block; color: #fff; }
+.overlayImg { display: block; width: 100%; aspect-ratio: 530 / 333; object-fit: cover; }
+.overlayBody { position: absolute; inset: auto 0 0 0; padding: 48px 18px 16px; background: linear-gradient(to top, rgba(0,0,0,.85), rgba(0,0,0,0)); }
+.badge { display: inline-block; margin-bottom: 8px; padding: 2px 8px; background: var(--color-24h, #78b43d); font-size: 12px; font-weight: 700; }
+.overlayTitle { font-size: 20px; font-weight: 700; line-height: 25px; }
+.overlayLink:hover .overlayTitle { text-decoration: underline; }
+.overlaySummary { margin-top: 8px; font-size: 13px; line-height: 18px; color: #e8e8e8; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.overlayTime { display: block; margin-top: 6px; font-size: 12px; color: #ccc; }
+
+/* text: chấm tròn 5px xanh + tiêu đề */
+.text { display: flex; }
+.text::before { content: ""; position: relative; top: 7px; flex: 0 0 5px; width: 5px; height: 5px; margin-right: 5px; border-radius: 3px; background: var(--color-24h, #78b43d); }
+.textLink { font-size: 14px; font-weight: 500; line-height: 20px; color: var(--color-main, #252525); }
+.textLink:hover { color: var(--color-24h, #78b43d); }
+
+@media (max-width: 600px) {
+  .overlayTitle { font-size: 18px; line-height: 23px; }
+  .overlayBody { padding: 32px 12px 12px; }
+  .horizontal .thumbLink { width: 130px; }
+  .horizontal .title { font-size: 16px; line-height: 21px; }
+}
