@@ -1,0 +1,150 @@
+{
+  "gold": {
+    "brand": "Bảo Tín Minh Châu",
+    "hotline": "1800.58.58.99",
+    "rows": [
+      {
+        "name": "VRTL",
+        "buy": "136,200",
+        "sell": "140,200",
+        "trend": "up"
+      },
+      {
+        "name": "SJC",
+        "buy": "136,200",
+        "sell": "141,400",
+        "trend": "down"
+      },
+      {
+        "name": "BTMC",
+        "buy": "136,000",
+        "sell": "139,900",
+        "trend": "up"
+      }
+    ]
+  },
+  "rate": [
+    {
+      "code": "USD",
+      "buy": "25,980",
+      "sell": "26,370",
+      "trend": "up"
+    },
+    {
+      "code": "EUR",
+      "buy": "29,860",
+      "sell": "31,540",
+      "trend": "down"
+    },
+    {
+      "code": "JPY",
+      "buy": "164.2",
+      "sell": "174.5",
+      "trend": "up"
+    },
+    {
+      "code": "AUD",
+      "buy": "16,480",
+      "sell": "17,180",
+      "trend": "down"
+    }
+  ],
+  "stock": [
+    {
+      "code": "VN-Index",
+      "point": "1,742.31",
+      "diff": "+8.42 (0.49%)",
+      "trend": "up"
+    },
+    {
+      "code": "HNX-Index",
+      "point": "268.05",
+      "diff": "-1.20 (0.45%)",
+      "trend": "down"
+    },
+    {
+      "code": "UPCOM",
+      "point": "121.77",
+      "diff": "0.00 (0.00%)",
+      "trend": "keep"
+    },
+    {
+      "code": "VN30",
+      "point": "1,905.60",
+      "diff": "+10.11 (0.53%)",
+      "trend": "up"
+    }
+  ],
+  "social": [
+    {
+      "name": "Fan MU Việt Nam",
+      "time": "2 giờ trước",
+      "text": "Đại chiến cuối tuần này sẽ quyết định rất nhiều. Anh em nghĩ đội hình nào sẽ ra sân?",
+      "images": 0
+    },
+    {
+      "name": "Bóng đá phủi",
+      "time": "3 giờ trước",
+      "text": "Dự đoán tỉ số: hai đội đều có lực lượng đầy đủ, khả năng cao là một trận hòa nhiều bàn thắng.",
+      "images": 1
+    },
+    {
+      "name": "Góc nhìn Premier League",
+      "time": "4 giờ trước",
+      "text": "Phong độ gần đây cho thấy hàng thủ vẫn là vấn đề lớn cần được giải quyết trước khi gặp đối thủ mạnh.",
+      "images": 0
+    },
+    {
+      "name": "Cổ động viên Chelsea",
+      "time": "5 giờ trước",
+      "text": "Sân nhà luôn là lợi thế, nhưng đối thủ lần này không hề dễ chơi như nhiều người nghĩ.",
+      "images": 2
+    },
+    {
+      "name": "Bình luận viên nghiệp dư",
+      "time": "6 giờ trước",
+      "text": "Điểm nhấn của trận đấu sẽ nằm ở khu vực giữa sân, nơi hai đội cạnh tranh quyết liệt.",
+      "images": 0
+    },
+    {
+      "name": "Fan bóng đá Sài Gòn",
+      "time": "8 giờ trước",
+      "text": "Tối nay cả nhóm hẹn nhau xem chung. Ai tham gia thì để lại bình luận nhé!",
+      "images": 1
+    }
+  ],
+  "shorts": [
+    {
+      "title": "Khoảnh khắc đáng nhớ trong trận đấu cuối tuần",
+      "cat": "Bóng đá - Thể thao"
+    },
+    {
+      "title": "Cảnh báo thủ đoạn lừa đảo qua điện thoại",
+      "cat": "Tin tức"
+    },
+    {
+      "title": "Hậu trường buổi tập của đội tuyển",
+      "cat": "Bóng đá - Thể thao"
+    },
+    {
+      "title": "Món ăn đường phố hút khách mùa lạnh",
+      "cat": "Ăn - chơi"
+    },
+    {
+      "title": "Nghệ sĩ trẻ kể chuyện nghề",
+      "cat": "Giải trí"
+    },
+    {
+      "title": "Mẹo nhỏ giúp ngủ ngon hơn mỗi tối",
+      "cat": "Sức khỏe"
+    },
+    {
+      "title": "Mẫu xe mới lăn bánh trên phố",
+      "cat": "Ô tô"
+    },
+    {
+      "title": "Một ngày ở chợ nổi buổi sớm",
+      "cat": "Du lịch"
+    }
+  ]
+}

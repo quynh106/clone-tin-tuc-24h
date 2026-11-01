@@ -1,0 +1,36 @@
+/* CSS dành riêng cho phần trang chủ thành viên C, viết lại theo bố cục mẫu. */
+.home-page { max-width: 1120px; margin: 0 auto; padding: 16px 12px 40px; color: #111; font-family: Arial, Helvetica, sans-serif; }
+.home-page a { text-decoration: none; }
+.home-hero { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, .96fr); column-gap: 16px; align-items: start; }
+.hero-main { min-width: 0; }
+.hero-main .image { aspect-ratio: 1.55 / 1; }
+.hero-main .title { font-size: 20px; line-height: 1.22; }
+.hero-main .summary { font-size: 12px; line-height: 1.45; }
+.hero-side { border-left: 1px solid #eee; padding-left: 14px; }
+.hero-side ul { list-style: none; margin: 0; padding: 0; }
+.hero-side li { border-bottom: 1px solid #e7e7e7; padding: 0 0 10px; margin-bottom: 10px; }
+.hero-side li a { display: block; color: #111; }
+.hero-side li span { display: block; color: #70ad39; font-size: 11px; margin-bottom: 4px; }
+.hero-side li strong { display: block; font-size: 12px; line-height: 1.35; }
+.hero-side li a:hover strong { color: #70ad39; }
+.hero-secondary { grid-column: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding-top: 12px; margin-top: 2px; border-top: 1px solid #e5e5e5; }
+.hero-secondary .title { font-size: 12px; line-height: 1.35; }
+.ad-placeholder { min-height: 66px; margin: 18px 0 20px; display: flex; align-items: center; justify-content: center; background: #fafafa; color: #c6c6c6; font-size: 10px; letter-spacing: 1px; }
+.news-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-bottom: 20px; }
+.section-heading { display: flex; gap: 12px; align-items: baseline; border-bottom: 2px solid #70ad39; margin-bottom: 8px; min-height: 27px; }
+.section-heading h2, .market-section h2 { margin: 0; font-size: 16px; line-height: 1.35; white-space: nowrap; }
+.section-heading div { display: flex; flex-wrap: wrap; gap: 10px; color: #777; font-size: 10px; }
+.headline-list { list-style: none; padding: 0; margin: 0; }
+.headline-list li { border-bottom: 1px solid #eee; padding: 7px 0 7px 11px; position: relative; font-size: 12px; line-height: 1.35; font-weight: 600; }
+.headline-list li::before, .topic-grid a::before { content: "•"; position: absolute; left: 0; color: #70ad39; }
+.headline-list a, .topic-grid a { color: #111; }
+.headline-list a:hover, .topic-grid a:hover, .market-grid a:hover { color: #70ad39; }
+.market-section { border: 1px solid #e5e5e5; padding: 10px 12px 12px; margin: 20px 0; }
+.market-section h2 { border-bottom: 2px solid #70ad39; padding-bottom: 7px; margin-bottom: 8px; }
+.market-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.market-grid a { color: #111; font-size: 11px; line-height: 1.4; }
+.topic-section { margin-top: 20px; }
+.topic-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.topic-grid a { position: relative; padding: 4px 0 8px 11px; border-bottom: 1px solid #eee; font-size: 12px; line-height: 1.4; font-weight: 600; }
+@media (max-width: 760px) { .home-hero { grid-template-columns: 1fr; } .hero-side { border-left: 0; padding-left: 0; margin-top: 15px; } .hero-secondary { grid-column: 1; } .news-columns { grid-template-columns: 1fr; gap: 18px; } .market-grid { grid-template-columns: repeat(2, 1fr); } .section-heading { flex-wrap: wrap; } }
+@media (max-width: 480px) { .hero-secondary, .topic-grid { grid-template-columns: 1fr; } .hero-main .title { font-size: 18px; } .market-grid { grid-template-columns: 1fr 1fr; } }
