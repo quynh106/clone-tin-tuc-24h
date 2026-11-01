@@ -1,3 +1,5 @@
-.box { padding: 40px 16px; text-align: center; color: #555; font-size: 14px; }
-.error { color: #b00020; }
-.error button { margin-top: 8px; padding: 6px 16px; border: 0; background: var(--color-primary, #008a00); color: #fff; cursor: pointer; }
+.box { display: flex; align-items: center; justify-content: center; min-height: 110px; padding: 28px 18px; border: 1px solid #ededed; border-radius: 4px; background: #fafbf9; color: #666; font-size: 13px; text-align: center; }
+.error { flex-direction: column; gap: 8px; border-color: #f1d9d9; background: #fffafa; color: #a52b35; }
+.error p { margin: 0; }
+.error button { margin-top: 4px; padding: 7px 16px; border: 0; border-radius: 3px; background: #78b43d; color: #fff; font: inherit; cursor: pointer; }
+.error button:hover { background: #659b31; }
