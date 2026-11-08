@@ -1,0 +1,1256 @@
+{
+ "articles": [
+  {
+   "id": "1807121",
+   "categoryId": "46",
+   "url": "/tin-tuc-trong-ngay/mr-pips-bi-cao-dau-bi-dien-ma-noi-voi-cong-an-ve-hoat-dong-cua-minh-c46a1807121.html",
+   "title": "Mr Pips: ' Bị cáo đâu bị điên mà nói với công an về hoạt động của mình '",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30//adt1793371248-723375e4b7-screen-shot-2026-10-30-at__anh_cat_3_2.webp",
+   "categorySlug": "tin-tuc-trong-ngay",
+   "categoryName": "Tin tức trong ngày"
+  },
+  {
+   "id": "1807048",
+   "categoryId": "48",
+   "url": "/bong-da/du-doan-ti-so-chelsea-mu-dai-chien-nhieu-an-oan-quy-do-vuot-ai-stamford-bridge-ngoai-hang-anh-c48a1807048.html",
+   "title": "Dự đoán tỉ số Chelsea - MU: Đại chiến nhiều ân oán,\"Quỷ đỏ\"vượt ải Stamford Bridge (Ngoại hạng Anh)",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/14--1--1793351644-938-width740height495.jpg",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1806519",
+   "categoryId": "48",
+   "url": "/bong-da/carrick-doi-mat-3-quyet-dinh-quan-trong-o-tran-mu-dai-chien-chelsea-c48a1806519.html",
+   "title": "Carrick đối mặt 3 quyết định quan trọng ở trận MU đại chiến Chelsea",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/255x170/28-495-1793202289-877-width740height495.jpg",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1806819",
+   "categoryId": "48",
+   "url": "/bong-da/mourinho-dat-cuoc-vao-benh-binh-cua-real-madrid-c48a1806819.html",
+   "title": "Mourinho đặt cược vào\"bệnh binh\"của Real Madrid",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/255x170/mou1-1793293108-591-width740height495.jpg",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1807105",
+   "categoryId": "415",
+   "url": "/tin-tuc-quoc-te/cuoc-trien-lam-pho-dien-nang-luc-uav-cua-trieu-tien-c415a1807105.html",
+   "title": "Cuộc triển lãm phô diễn năng lực UAV của Triều Tiên",
+   "image": "",
+   "categorySlug": "tin-tuc-quoc-te",
+   "categoryName": "Thế giới"
+  },
+  {
+   "id": "1807109",
+   "categoryId": "46",
+   "url": "/tin-tuc-trong-ngay/he-luy-dau-xot-tu-viec-giao-xe-cho-con-chua-du-tuoi-loi-canh-bao-cho-cac-bac-phu-huynh-c46a1807109.html",
+   "title": "Hệ lụy đau xót từ việc giao xe cho con chưa đủ tuổi: Lời cảnh báo cho các bậc phụ huynh",
+   "image": "",
+   "categorySlug": "tin-tuc-trong-ngay",
+   "categoryName": "Tin tức trong ngày"
+  },
+  {
+   "id": "1807065",
+   "categoryId": "161",
+   "url": "/kinh-doanh/so-phan-12-du-an-muong-thanh-tai-ha-noi-hang-muc-nao-duoc-ton-tai-phan-nao-buoc-pha-do-c161a1807065.html",
+   "title": "'Số phận' 12 dự án Mường Thanh tại Hà Nội: Hạng mục nào được tồn tại, phần nào buộc phá dỡ?",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793353389-04981aefb3-746e19acf04070c3f9118f35a__anh_cat_3_2.jpg",
+   "categorySlug": "kinh-doanh",
+   "categoryName": "Kinh doanh"
+  },
+  {
+   "id": "1806879",
+   "categoryId": "731",
+   "url": "/giai-tri/anh-trai-vu-thinh-sap-cuoi-ban-gai-dien-vien-c731a1806879.html",
+   "title": "'Anh trai' Vũ Thịnh sắp cưới bạn gái diễn viên",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793324047-39fd8084ba-vuthinh1-2011-5491-3823__anh_cat_3_2.jpg",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806088",
+   "categoryId": "78",
+   "url": "/dep/co-gai-ielts-80-hoc-van-an-tuong-o-hoa-hau-viet-nam-2026-c78a1806088.html",
+   "title": "Cô gái IELTS 8.0, học vấn ấn tượng ở Hoa hậu Việt Nam 2026",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-27/255x170/adt1793084349-cea1ec51c2-img-7333__anh_cat_3_2.webp",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806825",
+   "categoryId": "747",
+   "url": "/o-to/xe-xang-hay-xe-dien-vf-5-doi-dau-vios-trong-bai-toan-nuoi-xe-5-nam-c747a1806825.html",
+   "title": "Xe xăng hay xe điện? VF 5 đối đầu Vios trong bài toán nuôi xe 5 năm",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/ava-1793297109-905-width740height495.jpg",
+   "categorySlug": "o-to",
+   "categoryName": "Ô tô"
+  },
+  {
+   "id": "1807038",
+   "categoryId": "407",
+   "url": "/thoi-trang-hi-tech/hot-ra-mat-dien-thoai-nokia-2360-man-hinh-gap-hoai-co-c407a1807038.html",
+   "title": "HOT: Ra mắt điện thoại Nokia 2360 màn hình gập hoài cổ",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/1793350474-958-thumbnail-width740height495_anh_cat_3_2.jpg",
+   "categorySlug": "thoi-trang-hi-tech",
+   "categoryName": "Thời trang Hi-tech"
+  },
+  {
+   "id": "1807056",
+   "categoryId": "46",
+   "url": "/tin-tuc-trong-ngay/so-phan-12-du-an-muong-thanh-tai-ha-noi-hang-muc-nao-duoc-ton-tai-phan-nao-buoc-pha-do-c46a1807056.html",
+   "title": "'Số phận' 12 dự án Mường Thanh tại Hà Nội: Hạng mục nào được tồn tại, phần nào buộc phá dỡ?",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/untitled-1793352630-692-width740height495.jpg",
+   "categorySlug": "tin-tuc-trong-ngay",
+   "categoryName": "Tin tức trong ngày"
+  },
+  {
+   "id": "364371",
+   "categoryId": "48",
+   "url": "/bong-da/lich-thi-dau-bong-da-hom-nay-moi-nhat-c48a364371.html",
+   "title": "Lịch thi đấu",
+   "image": "",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1807050",
+   "categoryId": "48",
+   "url": "/bong-da/tielemans-canh-bao-mu-dung-sa-thai-carrick-martinez-co-dai-gia-san-don-c48a1807050.html",
+   "title": "Tielemans cảnh báo MU đừng sa thải Carrick, Martinez có đại gia săn đón",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/234243-495-1793351827-151-width740height495.jpg",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1807124",
+   "categoryId": "46",
+   "url": "/tin-tuc-trong-ngay/ha-noi-khoi-to-nguoi-dieu-khien-can-cau-khien-mot-phu-nu-tu-vong-c46a1807124.html",
+   "title": "Hà Nội: Khởi tố người điều khiển cần cẩu khiến một phụ nữ tử vong",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793372261-b16a2c3527--0593-54-0-834-1248-crop-__anh_cat_3_2.png",
+   "categorySlug": "tin-tuc-trong-ngay",
+   "categoryName": "Tin tức trong ngày"
+  },
+  {
+   "id": "1807126",
+   "categoryId": "46",
+   "url": "/tin-tuc-trong-ngay/pho-duc-nam-khai-ra-trum-cuoi-dung-dau-chuoi-lua-dao-chiem-doat-hon-1500-ty-c46a1807126.html",
+   "title": "Phó Đức Nam khai ra ‘trùm cuối' đứng đầu chuỗi lừa đảo chiếm đoạt hơn 1.500 tỷ",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/untitled-1793373518-670-width740height495.jpg",
+   "categorySlug": "tin-tuc-trong-ngay",
+   "categoryName": "Tin tức trong ngày"
+  },
+  {
+   "id": "1807123",
+   "categoryId": "46",
+   "url": "/tin-tuc-trong-ngay/vu-gia-cuong-thi-di-duong-gay-xon-xao-mang-xa-hoi-o-an-giang-3-nguoi-bi-xu-phat-c46a1807123.html",
+   "title": "Vụ giả 'cương thi' đi đường gây xôn xao mạng xã hội ở An Giang, 3 người bị xử phạt",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/1793371834-110-thumbnail-width740height495_anh_cat_3_2.jpg",
+   "categorySlug": "tin-tuc-trong-ngay",
+   "categoryName": "Tin tức trong ngày"
+  },
+  {
+   "id": "1807070",
+   "categoryId": "48",
+   "url": "/bong-da/ca-4-doi-trong-bang-dau-cua-viet-nam-chot-xong-quan-xanh-truoc-them-asian-cup-2027-c48a1807070.html",
+   "title": "Cả 4 đội trong bảng đấu của Việt Nam chốt xong 'quân xanh' trước thềm Asian Cup 2027",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793353851-3086132523-viet-nam-uae-1__anh_cat_3_2.webp",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1807096",
+   "categoryId": "48",
+   "url": "/bong-da/hlv-cristiano-roland-u17-viet-nam-tich-luy-kinh-nghiem-quy-gia-cho-world-cup-c48a1807096.html",
+   "title": "HLV Cristiano Roland: U17 Việt Nam tích luỹ kinh nghiệm quý giá cho World Cup",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793359358-d66a262b6a-roland__anh_cat_3_2.jpg",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1807052",
+   "categoryId": "48",
+   "url": "/bong-da/tuyen-viet-nam-hlv-kim-sang-sik-thap-thom-theo-nhip-dau-v-league-c48a1807052.html",
+   "title": "Tuyển Việt Nam: HLV Kim Sang Sik thấp thỏm theo nhịp đấu V-League",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793351941-b8f16a3af3-tuyen-viet-nam-hlv-kim-sa__anh_cat_3_2.jpg",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1807095",
+   "categoryId": "51",
+   "url": "/an-ninh-xa-hoi/ha-noi-khoi-to-nguoi-phu-nu-nem-mam-tom-vao-chu-tiem-banh-ngot-c51a1807095.html",
+   "title": "Hà Nội: Khởi tố người phụ nữ ném mắm tôm vào chủ tiệm bánh ngọt",
+   "image": "",
+   "categorySlug": "an-ninh-xa-hoi",
+   "categoryName": "An ninh - Xã hội"
+  },
+  {
+   "id": "1807051",
+   "categoryId": "415",
+   "url": "/tin-tuc-quoc-te/quai-vat-tren-khong-ch-47-chinook-xoay-vong-lao-thang-xuong-dat-o-bosnia-4-nguoi-thiet-mang-c415a1807051.html",
+   "title": "'Quái vật trên không' CH-47 Chinook xoay vòng lao thẳng xuống đất ở Bosnia, 4 người thiệt mạng",
+   "image": "",
+   "categorySlug": "tin-tuc-quoc-te",
+   "categoryName": "Thế giới"
+  },
+  {
+   "id": "1807097",
+   "categoryId": "48",
+   "url": "/bong-da/dieu-chinh-lich-v-league-vi-u23-viet-nam-c48a1807097.html",
+   "title": "Điều chỉnh lịch V-League vì U23 Việt Nam",
+   "image": "",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1807125",
+   "categoryId": "101",
+   "url": "/the-thao/video-tennis-alcaraz-paul-tie-break-dinh-doat-vienna-open-c101a1807125.html",
+   "title": "Video tennis Alcaraz - Paul: Tie break định đoạt (Vienna Open)",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/5-495-1793378589-552-width740height495.jpg",
+   "categorySlug": "the-thao",
+   "categoryName": "Thể thao"
+  },
+  {
+   "id": "1807116",
+   "categoryId": "161",
+   "url": "/kinh-doanh/chot-gia-vang-hom-nay-ngay-30-10-giam-rat-manh-c161a1807116.html",
+   "title": "Chốt giá vàng hôm nay ngày 30/10 giảm rất mạnh",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793367341-71f1431592-gia-vang-hom-nay-ngay-30-__anh_cat_3_2.jpg",
+   "categorySlug": "kinh-doanh",
+   "categoryName": "Kinh doanh"
+  },
+  {
+   "id": "1806327",
+   "categoryId": "52",
+   "url": "/thi-truong-tieu-dung/dan-xa-nay-o-ha-tinh-dua-chim-yen-ve-nuoi-o-vung-bai-nganglam-giau-tu-thu-bo-duong-vi-nhu-vang-trang-c52a1806327.html",
+   "title": "Dân xã này ở Hà Tĩnh, đưa chim yến về nuôi ở vùng bãi ngang,làm giàu từ thứ bổ dưỡng ví như “vàng trắng”",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/255x170/adt1793156083-fbe7d4991d-h4-1339__anh_cat_3_2.jpg",
+   "categorySlug": "thi-truong-tieu-dung",
+   "categoryName": "Thị trường tiêu dùng"
+  },
+  {
+   "id": "1806987",
+   "categoryId": "161",
+   "url": "/kinh-doanh/bitcoin-sap-gia-xuong-duoi-77000-usd-giua-thong-tin-binance-bi-hack-hang-ty-usd-c161a1806987.html",
+   "title": "Bitcoin 'sập' giá: Xuống dưới 77.000 USD giữa thông tin Binance bị hack hàng tỷ USD",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793343320-c62ca47455-bitcoin-1-2240__anh_cat_3_2.jpg",
+   "categorySlug": "kinh-doanh",
+   "categoryName": "Kinh doanh"
+  },
+  {
+   "id": "1806921",
+   "categoryId": "161",
+   "url": "/kinh-doanh/cay-xanh-cong-minh-va-mang-luoi-quan-xanh-thau-tom-1218-goi-thau-c161a1806921.html",
+   "title": "Cây xanh Công Minh và mạng lưới 'quân xanh' thâu tóm 1.218 gói thầu",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793329491-56a5fa7f19-anh-man-hinh-2026-10-29-l__anh_cat_3_2.jpg",
+   "categorySlug": "kinh-doanh",
+   "categoryName": "Kinh doanh"
+  },
+  {
+   "id": "1806707",
+   "categoryId": "52",
+   "url": "/thi-truong-tieu-dung/tuong-meo-bang-vang-nang-58-kg-o-nha-ban-gai-mr-pips-co-the-mang-y-nghia-gi-c52a1806707.html",
+   "title": "Tượng mèo bằng vàng nặng 5,8 kg ở nhà bạn gái Mr Pips có thể mang ý nghĩa gì?",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/255x170/1793266984-811-thumbnail-width740height495_anh_cat_3_2.jpg",
+   "categorySlug": "thi-truong-tieu-dung",
+   "categoryName": "Thị trường tiêu dùng"
+  },
+  {
+   "id": "1806980",
+   "categoryId": "52",
+   "url": "/thi-truong-tieu-dung/halloween-can-ke-thi-truong-do-gia-ma-van-e-chong-c52a1806980.html",
+   "title": "Halloween cận kề, thị trường đồ 'giả ma' vẫn ế",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793342387-50527a5c3b-tp_haloween-uyen-phuong-5__anh_cat_3_2.webp",
+   "categorySlug": "thi-truong-tieu-dung",
+   "categoryName": "Thị trường tiêu dùng"
+  },
+  {
+   "id": "1806890",
+   "categoryId": "52",
+   "url": "/thi-truong-tieu-dung/thu-lao-hon-500000-dong-moi-gio-de-dat-cho-robot-di-dao-c52a1806890.html",
+   "title": "Thù lao hơn 500.000 đồng mỗi giờ để dắt chó robot đi dạo",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/1793325477-139-thumbnail-width740height495_anh_cat_3_2.jpg",
+   "categorySlug": "thi-truong-tieu-dung",
+   "categoryName": "Thị trường tiêu dùng"
+  },
+  {
+   "id": "1807107",
+   "categoryId": "161",
+   "url": "/kinh-doanh/san-giao-dich-tien-ma-hoa-binance-bi-tan-cong-nha-dau-tu-viet-lo-lang-tien-de-dau-moi-an-toan-c161a1807107.html",
+   "title": "Sàn giao dịch tiền mã hóa Binance bị tấn công: Nhà đầu tư Việt lo lắng, tiền để đâu mới an toàn?",
+   "image": "",
+   "categorySlug": "kinh-doanh",
+   "categoryName": "Kinh doanh"
+  },
+  {
+   "id": "1806981",
+   "categoryId": "161",
+   "url": "/kinh-doanh/binance-he-lo-nguyen-nhan-vu-hack-63-ty-usd-tien-so-tat-ca-co-the-bat-dau-tu-1-chiec-laptop-c161a1806981.html",
+   "title": "Binance hé lộ nguyên nhân vụ hack 6,3 tỷ USD tiền số, tất cả có thể bắt đầu từ 1 chiếc laptop",
+   "image": "",
+   "categorySlug": "kinh-doanh",
+   "categoryName": "Kinh doanh"
+  },
+  {
+   "id": "1806809",
+   "categoryId": "52",
+   "url": "/thi-truong-tieu-dung/moi-nhu-tien-ty-sau-nhung-phien-livestream-khui-ngoc-trai-c52a1806809.html",
+   "title": "Mồi nhử tiền tỷ sau những phiên livestream khui ngọc trai",
+   "image": "",
+   "categorySlug": "thi-truong-tieu-dung",
+   "categoryName": "Thị trường tiêu dùng"
+  },
+  {
+   "id": "1806866",
+   "categoryId": "52",
+   "url": "/thi-truong-tieu-dung/trai-cay-trung-quoc-sieu-re-nho-sua-22000-dong-kg-tao-mat-chi-11000-dong-c52a1806866.html",
+   "title": "Trái cây Trung Quốc siêu rẻ: Nho sữa 22.000 đồng/kg, táo mật chỉ 11.000 đồng",
+   "image": "",
+   "categorySlug": "thi-truong-tieu-dung",
+   "categoryName": "Thị trường tiêu dùng"
+  },
+  {
+   "id": "1807059",
+   "categoryId": "415",
+   "url": "/tin-tuc-quoc-te/doi-quan-giau-mat-ukraine-bua-vay-cac-cong-su-nga-c415a1807059.html",
+   "title": "Đội quân giấu mặt Ukraine bủa vây các công sự Nga",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/1793354901-595-thumbnail-width740height495_anh_cat_3_2.jpg",
+   "categorySlug": "tin-tuc-quoc-te",
+   "categoryName": "Thế giới"
+  },
+  {
+   "id": "1807005",
+   "categoryId": "415",
+   "url": "/tin-tuc-quoc-te/bo-truong-chien-tranh-my-sa-thai-tuong-cap-cao-vi-ro-ri-bi-mat-quan-su-c415a1807005.html",
+   "title": "Bộ trưởng Chiến tranh Mỹ sa thải tướng cấp cao vì rò rỉ bí mật quân sự",
+   "image": "",
+   "categorySlug": "tin-tuc-quoc-te",
+   "categoryName": "Thế giới"
+  },
+  {
+   "id": "1806787",
+   "categoryId": "415",
+   "url": "/tin-tuc-quoc-te/co-van-cua-ba-melania-tiet-lo-buc-thu-tu-tong-thong-putin-c415a1806787.html",
+   "title": "Cố vấn của bà Melania tiết lộ bức thư từ Tổng thống Putin",
+   "image": "",
+   "categorySlug": "tin-tuc-quoc-te",
+   "categoryName": "Thế giới"
+  },
+  {
+   "id": "1807002",
+   "categoryId": "415",
+   "url": "/tin-tuc-quoc-te/con-gian-cua-dang-cong-hoa-khi-ong-obama-che-nha-trang-nhu-nha-hang-c415a1807002.html",
+   "title": "Cơn giận của đảng Cộng hòa khi ông Obama chê 'Nhà Trắng như nhà hàng'",
+   "image": "",
+   "categorySlug": "tin-tuc-quoc-te",
+   "categoryName": "Thế giới"
+  },
+  {
+   "id": "1807102",
+   "categoryId": "62",
+   "url": "/suc-khoe/who-noi-gi-ve-de-xuat-hien-mo-tang-o-nguoi-duoi-18-tuoi-c62a1807102.html",
+   "title": "WHO nói gì về đề xuất hiến mô, tạng ở người dưới 18 tuổi?",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/1793361808-672-thumbnail-width740height495_anh_cat_3_2.jpg",
+   "categorySlug": "suc-khoe",
+   "categoryName": "Sức khỏe"
+  },
+  {
+   "id": "1807023",
+   "categoryId": "62",
+   "url": "/suc-khoe/nuot-phai-dao-lam-khi-an-mi-tom-buoi-sang-c62a1807023.html",
+   "title": "Nuốt phải dao lam khi ăn mì tôm buổi sáng",
+   "image": "",
+   "categorySlug": "suc-khoe",
+   "categoryName": "Sức khỏe"
+  },
+  {
+   "id": "1806996",
+   "categoryId": "62",
+   "url": "/suc-khoe/them-ca-tu-vong-vi-nao-mo-cau-o-ca-mau-van-chua-tim-duoc-nguon-lay-c62a1806996.html",
+   "title": "Thêm ca tử vong vì não mô cầu ở Cà Mau, vẫn chưa tìm được nguồn lây",
+   "image": "",
+   "categorySlug": "suc-khoe",
+   "categoryName": "Sức khỏe"
+  },
+  {
+   "id": "1806948",
+   "categoryId": "62",
+   "url": "/suc-khoe/co-gai-tu-vong-sau-khi-giam-thuoc-theo-chatgpt-c62a1806948.html",
+   "title": "Cô gái tử vong sau khi giảm thuốc theo ChatGPT",
+   "image": "",
+   "categorySlug": "suc-khoe",
+   "categoryName": "Sức khỏe"
+  },
+  {
+   "id": "1806625",
+   "categoryId": "62",
+   "url": "/suc-khoe/an-cua-ghe-chet-co-nguy-co-gi-c62a1806625.html",
+   "title": "Ăn cua ghẹ chết có nguy cơ gì?",
+   "image": "",
+   "categorySlug": "suc-khoe",
+   "categoryName": "Sức khỏe"
+  },
+  {
+   "id": "1806907",
+   "categoryId": "731",
+   "url": "/giai-tri/cao-hai-ninh-kho-so-vi-dong-vai-vo-truong-tri-lam-c731a1806907.html",
+   "title": "Cao Hải Ninh ' khổ sở ' vì đóng vai vợ Trương Trí Lâm",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/adt1793327381-cee19edafe-fs1-2745-8967-3681__anh_cat_3_2.jpg",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806995",
+   "categoryId": "731",
+   "url": "/giai-tri/dam-cuoi-vuong-anh-ole-va-mai-bung-c731a1806995.html",
+   "title": "Đám cưới Vương Anh Ole và Mai Bừng",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793345279-85f4eedab7-vuong-anh-2916__anh_cat_3_2.webp",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806994",
+   "categoryId": "731",
+   "url": "/giai-tri/doan-phim-bac-si-x-va-100-ngay-lua-doi-tuong-nho-mot-dien-vien-dot-ngot-qua-doi-c731a1806994.html",
+   "title": "Đoàn phim Bác Sĩ X và 100 Ngày Lừa Dối tưởng nhớ một diễn viên đột ngột qua đời",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793345268-faf78e3838-ava-2026-10-28t622__anh_cat_3_2.webp",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806914",
+   "categoryId": "731",
+   "url": "/giai-tri/kim-kardashian-khien-me-noi-gian-khi-tiet-lo-chuyen-ngoai-tinh-c731a1806914.html",
+   "title": "Kim Kardashian khiến mẹ nổi giận khi tiết lộ chuyện ngoại tình",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793328211-ec1826483e-igexport-depfmway-0855-24__anh_cat_3_2.jpg",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1807021",
+   "categoryId": "731",
+   "url": "/giai-tri/ong-do-bat-chu-cua-hang-phai-go-anh-nhay-cam-cua-con-gai-c731a1807021.html",
+   "title": "Ông Đô bắt chủ cửa hàng phải gỡ ảnh nhạy cảm của con gái",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793347387-884a224029-anh-chup-man-hinh-2026-10__anh_cat_3_2.png",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806954",
+   "categoryId": "731",
+   "url": "/giai-tri/bigbang-mong-den-viet-nam-thuong-xuyen-c731a1806954.html",
+   "title": "BigBang: ' Mong đến Việt Nam thường xuyên '",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793333877-7600c873da-bigbang-8234-4726-8420__anh_cat_3_2.png",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806937",
+   "categoryId": "731",
+   "url": "/giai-tri/nu-dien-vien-32-tuoi-cuoi-ban-than-cua-bo-chu-re-73-tuoi-hon-bo-vo-ca-chuc-tuoi-c731a1806937.html",
+   "title": "Nữ diễn viên 32 tuổi cưới bạn thân của bố, chú rể 73 tuổi, hơn bố vợ cả chục tuổi",
+   "image": "",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806947",
+   "categoryId": "731",
+   "url": "/giai-tri/huyen-thoai-cua-phim-x-men-giao-su-x-patrick-stewart-qua-doi-o-tuoi-86-c731a1806947.html",
+   "title": "Huyền thoại của phim X-Men - \"Giáo sư X\" Patrick Stewart qua đời ở tuổi 86",
+   "image": "",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806925",
+   "categoryId": "731",
+   "url": "/giai-tri/sao-nhap-ngu-2026-phan-manh-quynh-nghen-long-truoc-su-hy-sinh-cua-cac-liet-si-erik-khang-dinh-san-sang-khi-to-quoc-can-c731a1806925.html",
+   "title": "Sao nhập ngũ 2026: Phan Mạnh Quỳnh nghẹn lòng trước sự hy sinh của các liệt sĩ, Erik luôn sẵn sàng khi Tổ quốc cần",
+   "image": "",
+   "categorySlug": "giai-tri",
+   "categoryName": "Giải trí"
+  },
+  {
+   "id": "1806351",
+   "categoryId": "748",
+   "url": "/xe-may-xe-dap/day-la-loi-khi-lai-xe-may-ma-muc-phat-toi-14-trieu-dong-c748a1806351.html",
+   "title": "Đây là lỗi khi lái xe máy mà mức phạt tới 14 triệu đồng",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/455x303/xe-6-1793161483-66-width740height495.jpg",
+   "categorySlug": "xe-may-xe-dap",
+   "categoryName": "Xe máy - Xe đạp"
+  },
+  {
+   "id": "1806618",
+   "categoryId": "748",
+   "url": "/xe-may-xe-dap/honda-trinh-lang-xe-ga-genio-2027-lua-chon-thay-the-vision-gia-tu-296-trieu-dong-c748a1806618.html",
+   "title": "Honda trình làng xe ga Genio 2027: Lựa chọn thay thế Vision, giá từ 29,6 triệu đồng",
+   "image": "",
+   "categorySlug": "xe-may-xe-dap",
+   "categoryName": "Xe máy - Xe đạp"
+  },
+  {
+   "id": "1806714",
+   "categoryId": "748",
+   "url": "/xe-may-xe-dap/clip-nhan-vien-gac-duong-tau-cuu-hoc-sinh-khoi-cu-tong-xe-dau-keo-trong-tich-tac-c748a1806714.html",
+   "title": "Clip: Nhân viên gác đường tàu cứu học sinh khỏi cú tông xe đầu kéo trong tích tắc",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/255x170/image_dai_dien_gifnhanvien_gactau-1793259086-57-width740height495-gif2mp4_anh_cat_4_3.jpg",
+   "categorySlug": "xe-may-xe-dap",
+   "categoryName": "Xe máy - Xe đạp"
+  },
+  {
+   "id": "1806357",
+   "categoryId": "748",
+   "url": "/xe-may-xe-dap/yamaha-yzf-r3-2026-ra-mat-mo-to-do-thi-dung-dieu-them-mau-moi-an-tuong-c748a1806357.html",
+   "title": "Yamaha YZF-R3 2026 ra mắt: Mô tô đô thị đúng điệu, thêm màu mới ấn tượng",
+   "image": "",
+   "categorySlug": "xe-may-xe-dap",
+   "categoryName": "Xe máy - Xe đạp"
+  },
+  {
+   "id": "1805698",
+   "categoryId": "748",
+   "url": "/xe-may-xe-dap/yamaha-jupiter-v-phien-ban-ky-niem-bien-vip-do-loat-do-hieu-gia-150-trieu-dong-c748a1805698.html",
+   "title": "Yamaha Jupiter V phiên bản kỷ niệm biển VIP, độ loạt đồ hiệu giá 150 triệu đồng",
+   "image": "",
+   "categorySlug": "xe-may-xe-dap",
+   "categoryName": "Xe máy - Xe đạp"
+  },
+  {
+   "id": "1806476",
+   "categoryId": "747",
+   "url": "/o-to/trung-quoc-tinh-siet-man-hinh-co-lon-tren-o-to-lo-ngai-nguy-co-mat-an-toan-c747a1806476.html",
+   "title": "Trung Quốc tính siết màn hình cỡ lớn trên ô tô, lo ngại nguy cơ mất an toàn",
+   "image": "",
+   "categorySlug": "o-to",
+   "categoryName": "Ô tô"
+  },
+  {
+   "id": "1806401",
+   "categoryId": "747",
+   "url": "/o-to/diem-moi-ve-dang-kiem-xe-co-gioi-hang-trieu-lai-xe-can-biet-c747a1806401.html",
+   "title": "Điểm mới về đăng kiểm xe cơ giới, hàng triệu lái xe cần biết",
+   "image": "",
+   "categorySlug": "o-to",
+   "categoryName": "Ô tô"
+  },
+  {
+   "id": "1806736",
+   "categoryId": "747",
+   "url": "/o-to/clip-kinh-hoang-o-to-om-cua-huc-sap-cong-nha-dan-roi-lao-do-tuong-rao-c747a1806736.html",
+   "title": "Clip: Kinh hoàng ô tô ôm cua húc sập cổng nhà dân rồi lao đổ tường rào",
+   "image": "",
+   "categorySlug": "o-to",
+   "categoryName": "Ô tô"
+  },
+  {
+   "id": "1806652",
+   "categoryId": "747",
+   "url": "/o-to/thuong-hieu-o-to-trung-quoc-canh-tranh-khoc-liet-nhieu-thuong-hieu-bi-khai-tu-c747a1806652.html",
+   "title": "Thương hiệu ô tô Trung Quốc cạnh tranh khốc liệt, nhiều thương hiệu bị khai tử",
+   "image": "",
+   "categorySlug": "o-to",
+   "categoryName": "Ô tô"
+  },
+  {
+   "id": "1806475",
+   "categoryId": "407",
+   "url": "/thoi-trang-hi-tech/om-iphone-duo-gia-cao-dan-buon-lo-nang-vi-loi-nut-man-hinh-c407a1806475.html",
+   "title": "'Ôm' iPhone Duo giá cao, dân buôn lỗ nặng vì lỗi nứt màn hình",
+   "image": "",
+   "categorySlug": "thoi-trang-hi-tech",
+   "categoryName": "Thời trang Hi-tech"
+  },
+  {
+   "id": "1806910",
+   "categoryId": "407",
+   "url": "/thoi-trang-hi-tech/samsung-w27-trinh-lang-voi-thiet-ke-khien-nguoi-ham-mo-me-man-c407a1806910.html",
+   "title": "Samsung W27 trình làng với thiết kế khiến người hâm mộ mê mẩn",
+   "image": "",
+   "categorySlug": "thoi-trang-hi-tech",
+   "categoryName": "Thời trang Hi-tech"
+  },
+  {
+   "id": "1806444",
+   "categoryId": "407",
+   "url": "/thoi-trang-hi-tech/vi-sao-nhieu-nguoi-van-chon-dien-thoai-bo-nho-trong-128-gb-c407a1806444.html",
+   "title": "Vì sao nhiều người vẫn chọn điện thoại bộ nhớ trong 128 GB?",
+   "image": "",
+   "categorySlug": "thoi-trang-hi-tech",
+   "categoryName": "Thời trang Hi-tech"
+  },
+  {
+   "id": "1806833",
+   "categoryId": "407",
+   "url": "/thoi-trang-hi-tech/nhan-vien-foxconn-he-lo-nguyen-nhan-iphone-duo-nut-man-hinh-c407a1806833.html",
+   "title": "Nhân viên Foxconn hé lộ nguyên nhân iPhone Duo nứt màn hình",
+   "image": "",
+   "categorySlug": "thoi-trang-hi-tech",
+   "categoryName": "Thời trang Hi-tech"
+  },
+  {
+   "id": "1807057",
+   "categoryId": "55",
+   "url": "/cong-nghe-thong-tin/nhanh-tay-choi-thu-mien-phi-game-bong-da-gia-15-trieu-dong-tren-steam-c55a1807057.html",
+   "title": "Nhanh tay chơi thử miễn phí game bóng đá giá 1,5 triệu đồng trên Steam",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/thumb-1793352529-299-width740height495.jpg",
+   "categorySlug": "cong-nghe-thong-tin",
+   "categoryName": "Công nghệ thông tin"
+  },
+  {
+   "id": "1806931",
+   "categoryId": "55",
+   "url": "/cong-nghe-thong-tin/lo-ma-qr-thanh-toan-nam-streamer-bi-fan-choi-kham-gan-320-trieu-dong-c55a1806931.html",
+   "title": "Lộ mã QR thanh toán, nam streamer bị fan \"chơi khăm\" gần 320 triệu đồng",
+   "image": "",
+   "categorySlug": "cong-nghe-thong-tin",
+   "categoryName": "Công nghệ thông tin"
+  },
+  {
+   "id": "1806918",
+   "categoryId": "55",
+   "url": "/cong-nghe-thong-tin/youtuber-canh-bao-khach-du-lich-ve-dieu-cam-ky-khi-uong-ca-phe-o-han-quoc-c55a1806918.html",
+   "title": "YouTuber cảnh báo khách du lịch về điều cấm kỵ khi uống cà phê ở Hàn Quốc",
+   "image": "",
+   "categorySlug": "cong-nghe-thong-tin",
+   "categoryName": "Công nghệ thông tin"
+  },
+  {
+   "id": "1806966",
+   "categoryId": "55",
+   "url": "/cong-nghe-thong-tin/he-lo-con-duong-hacker-danh-cap-63-ty-usd-tien-so-khoi-san-binance-c55a1806966.html",
+   "title": "Hé lộ con đường hacker đánh cắp 6,3 tỷ USD tiền số khỏi sàn Binance",
+   "image": "",
+   "categorySlug": "cong-nghe-thong-tin",
+   "categoryName": "Công nghệ thông tin"
+  },
+  {
+   "id": "1806897",
+   "categoryId": "55",
+   "url": "/cong-nghe-thong-tin/8-vu-hack-tien-ma-hoa-lon-nhat-lich-su-truoc-su-viec-hang-ty-usd-tai-binance-c55a1806897.html",
+   "title": "8 vụ hack tiền mã hóa lớn nhất lịch sử trước sự việc hàng tỷ USD tại Binance",
+   "image": "",
+   "categorySlug": "cong-nghe-thong-tin",
+   "categoryName": "Công nghệ thông tin"
+  },
+  {
+   "id": "1806623",
+   "categoryId": "78",
+   "url": "/dep/co-gai-tot-nghiep-xuat-sac-ngoai-thuong-o-hoa-hau-viet-nam-c78a1806623.html",
+   "title": "Cô gái tốt nghiệp xuất sắc Ngoại thương thi Hoa hậu Việt Nam",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/455x303/adt1793240827-8e041cc565-khanh-via999-5873__anh_cat_3_2.jpg",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806426",
+   "categoryId": "78",
+   "url": "/dep/dien-vien-dai-loan-41-tuoi-tiet-lo-5-bi-quyet-tre-nhu-gai-doi-muoi-c78a1806426.html",
+   "title": "Diễn viên Đài Loan 41 tuổi tiết lộ 5 bí quyết trẻ như gái đôi mươi",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/255x170/adt1793175877-72e8f56d14-top-6548-7856-6583__anh_cat_3_2.png",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806691",
+   "categoryId": "78",
+   "url": "/dep/an-uong-van-dong-the-nao-de-duy-tri-voc-dang-ma-khong-can-detox-c78a1806691.html",
+   "title": "Ăn uống, vận động thế nào để duy trì vóc dáng mà không cần detox?",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/255x170/adt1793254961-f1a2b2fb2e-thanh-loc-co-the-66951-0-__anh_cat_3_2.png",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806978",
+   "categoryId": "78",
+   "url": "/dep/dau-hao-mon-linh-rin-bat-trend-chup-anh-dep-nhu-nu-than-c78a1806978.html",
+   "title": "Dâu hào môn Linh Rin 'bắt trend' chụp ảnh đẹp như nữ thần",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793342352-a3a5b89676-ava-em-dau-ha-tang-1541-0__anh_cat_3_2.jpg",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806878",
+   "categoryId": "78",
+   "url": "/dep/tranh-cai-cu-dai-dien-viet-nam-thi-mgi-all-stars-c78a1806878.html",
+   "title": "Tranh cãi cử đại diện Việt Nam thi MGI All Stars",
+   "image": "",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806868",
+   "categoryId": "78",
+   "url": "/dep/lo-lem-xach-tui-tram-trieu-dong-dao-pho-han-quoc-c78a1806868.html",
+   "title": "Lọ Lem xách túi trăm triệu đồng dạo phố Hàn Quốc",
+   "image": "",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806626",
+   "categoryId": "78",
+   "url": "/dep/nu-sinh-rmit-o-hoa-hau-viet-nam-bi-liet-day-than-kinh-toi-phai-hoc-cach-cuoi-c78a1806626.html",
+   "title": "Nữ sinh RMIT ở Hoa hậu Việt Nam: ‘Bị liệt dây thần kinh, tôi phải học cách cười’",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/255x170/image_dai_dien_gifnusinhrmit-1793241919-942-width740height495-gif2mp4.jpg",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1806863",
+   "categoryId": "78",
+   "url": "/dep/hon-nhan-4-nam-man-nong-cua-hai-miss-grand-c78a1806863.html",
+   "title": "Hôn nhân 4 năm mặn nồng của hai Miss Grand",
+   "image": "",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "1803368",
+   "categoryId": "78",
+   "url": "/dep/bi-quyet-giu-dang-va-lan-da-cua-tuong-thanh-nhan-sac-xu-han-kim-tae-hee-c78a1803368.html",
+   "title": "Bí quyết giữ dáng và làn da của “tường thành nhan sắc xứ Hàn” Kim Tae Hee",
+   "image": "",
+   "categorySlug": "dep",
+   "categoryName": "Đẹp"
+  },
+  {
+   "id": "908602",
+   "categoryId": "101",
+   "url": "/the-thao/lich-thi-dau-the-thao-hom-nay-moi-nhat-c101a908602.html",
+   "title": "Lịch thi đấu",
+   "image": "",
+   "categorySlug": "the-thao",
+   "categoryName": "Thể thao"
+  },
+  {
+   "id": "1807045",
+   "categoryId": "101",
+   "url": "/the-thao/tay-dua-lao-vao-xe-boc-chay-cuu-doi-thu-thoat-chet-c101a1807045.html",
+   "title": "Tay đua lao vào xe bốc cháy cứu đối thủ thoát chết",
+   "image": "",
+   "categorySlug": "the-thao",
+   "categoryName": "Thể thao"
+  },
+  {
+   "id": "1807062",
+   "categoryId": "101",
+   "url": "/the-thao/nong-nhat-the-thao-sang-31-10-djokovic-thua-nhan-bi-choang-vang-boi-cach-choi-cua-struff-c101a1807062.html",
+   "title": "Nóng nhất thể thao sáng 31/10: Djokovic thừa nhận bị choáng váng bởi cách chơi của Struff",
+   "image": "",
+   "categorySlug": "the-thao",
+   "categoryName": "Thể thao"
+  },
+  {
+   "id": "1806798",
+   "categoryId": "101",
+   "url": "/the-thao/quyet-chien-nhan-cu-soc-vi-sao-bi-vang-khoi-nhom-hat-giong-bi-a-world-cup-c101a1806798.html",
+   "title": "Quyết Chiến nhận cú sốc, vì sao bị văng khỏi nhóm hạt giống bi-a World Cup?",
+   "image": "",
+   "categorySlug": "the-thao",
+   "categoryName": "Thể thao"
+  },
+  {
+   "id": "1807072",
+   "categoryId": "101",
+   "url": "/the-thao/vi-sao-co-vua-viet-nam-gianh-2-ve-du-world-cup-2027-c101a1807072.html",
+   "title": "Vì sao cờ vua Việt Nam giành 2 vé dự World Cup 2027?",
+   "image": "",
+   "categorySlug": "the-thao",
+   "categoryName": "Thể thao"
+  },
+  {
+   "id": "1806972",
+   "categoryId": "64",
+   "url": "/ban-tre-cuoc-song/phu-tho-huy-dong-gan-5000-nguoi-co-vu-ly-thai-duong-thi-chung-ket-duong-len-dinh-olympia-c64a1806972.html",
+   "title": "Phú Thọ huy động gần 5.000 người cổ vũ Lý Thái Dương thi chung kết Đường lên đỉnh Olympia",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/adt1793340611-d7d22e2bdf-6-7-7-c52a68acd9f5214c7b6__anh_cat_3_2.webp",
+   "categorySlug": "ban-tre-cuoc-song",
+   "categoryName": "Bạn trẻ - Cuộc sống"
+  },
+  {
+   "id": "1806945",
+   "categoryId": "64",
+   "url": "/ban-tre-cuoc-song/co-gai-bi-ca-sau-tan-cong-truoc-mat-chong-sap-cuoi-c64a1806945.html",
+   "title": "Cô gái bị cá sấu tấn công trước mặt chồng sắp cưới",
+   "image": "",
+   "categorySlug": "ban-tre-cuoc-song",
+   "categoryName": "Bạn trẻ - Cuộc sống"
+  },
+  {
+   "id": "1806877",
+   "categoryId": "64",
+   "url": "/ban-tre-cuoc-song/chap-nhan-hen-ho-voi-nguoi-100-tuoi-chang-trai-26-tuoi-cay-dang-vi-van-e-toan-tap-c64a1806877.html",
+   "title": "Chấp nhận hẹn hò với người 100 tuổi, chàng trai 26 tuổi cay đắng vì vẫn \"ế toàn tập\"",
+   "image": "",
+   "categorySlug": "ban-tre-cuoc-song",
+   "categoryName": "Bạn trẻ - Cuộc sống"
+  },
+  {
+   "id": "1806573",
+   "categoryId": "64",
+   "url": "/ban-tre-cuoc-song/me-dong-nai-nuoi-ga-trong-chuong-2-m2-du-thit-va-trung-cho-ca-nha-c64a1806573.html",
+   "title": "Mẹ Đồng Nai nuôi gà trong chuồng 2 m2, đủ thịt và trứng cho cả nhà",
+   "image": "",
+   "categorySlug": "ban-tre-cuoc-song",
+   "categoryName": "Bạn trẻ - Cuộc sống"
+  },
+  {
+   "id": "1806574",
+   "categoryId": "64",
+   "url": "/ban-tre-cuoc-song/roi-anh-ve-dao-nguoi-ban-ca-thay-minh-song-nhu-trieu-phu-c64a1806574.html",
+   "title": "Rời Anh về đảo, người bán cá thấy mình 'sống như triệu phú'",
+   "image": "",
+   "categorySlug": "ban-tre-cuoc-song",
+   "categoryName": "Bạn trẻ - Cuộc sống"
+  },
+  {
+   "id": "1807101",
+   "categoryId": "51",
+   "url": "/an-ninh-xa-hoi/vi-sao-khu-vuc-hai-pham-nhan-tron-trai-giam-a2-dang-an-nau-goi-la-hon-du-c51a1807101.html",
+   "title": "Vì sao khu vực hai phạm nhân trốn trại giam A2 đang ẩn náu gọi là Hòn Dữ?",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/adt1793361659-3c55660083-attulxyck9o-qzwutrssj37v8__anh_cat_3_2.webp",
+   "categorySlug": "an-ninh-xa-hoi",
+   "categoryName": "An ninh - Xã hội"
+  },
+  {
+   "id": "1807092",
+   "categoryId": "51",
+   "url": "/an-ninh-xa-hoi/vu-chay-nha-lam-2-nguoi-chet-chay-o-gia-lai-bat-tam-giam-nguoi-ong-81-tuoi-c51a1807092.html",
+   "title": "Vụ cháy nhà làm 2 người chết cháy ở Gia Lai: Bắt tạm giam người ông 81 tuổi",
+   "image": "",
+   "categorySlug": "an-ninh-xa-hoi",
+   "categoryName": "An ninh - Xã hội"
+  },
+  {
+   "id": "1807060",
+   "categoryId": "51",
+   "url": "/an-ninh-xa-hoi/bat-hai-ten-cuop-chi-nham-vao-phu-nu-di-mot-minh-c51a1807060.html",
+   "title": "Bắt hai tên cướp chỉ nhằm vào phụ nữ đi một mình",
+   "image": "",
+   "categorySlug": "an-ninh-xa-hoi",
+   "categoryName": "An ninh - Xã hội"
+  },
+  {
+   "id": "1806977",
+   "categoryId": "51",
+   "url": "/an-ninh-xa-hoi/vu-nguoi-dan-ong-bi-chem-tu-vong-o-ha-noi-nan-nhan-va-hung-thu-choi-than-voi-nhau-c51a1806977.html",
+   "title": "Vụ người đàn ông bị chém tử vong ở Hà Nội: Nạn nhân và hung thủ chơi thân với nhau",
+   "image": "",
+   "categorySlug": "an-ninh-xa-hoi",
+   "categoryName": "An ninh - Xã hội"
+  },
+  {
+   "id": "1806688",
+   "categoryId": "216",
+   "url": "/giao-duc/nhieu-hoc-sinh-than-bi-bach-vi-dong-phuc-c216a1806688.html",
+   "title": "Nhiều học sinh than 'bí bách' vì đồng phục",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/455x303/adt1793254775-17e28f0276--4923-1368-7623__anh_cat_3_2.jpg",
+   "categorySlug": "giao-duc",
+   "categoryName": "Giáo dục"
+  },
+  {
+   "id": "1806997",
+   "categoryId": "216",
+   "url": "/giao-duc/tranh-luan-nong-viec-bo-gddt-muon-tron-hoc-sinh-thi-tot-nghiep-c216a1806997.html",
+   "title": "Tranh luận nóng việc Bộ GD&ĐT muốn ‘trộn’ học sinh thi tốt nghiệp",
+   "image": "",
+   "categorySlug": "giao-duc",
+   "categoryName": "Giáo dục"
+  },
+  {
+   "id": "1806973",
+   "categoryId": "216",
+   "url": "/giao-duc/truong-o-tp-hcm-doi-tiet-hoc-lien-ket-cho-nghi-thu-bay-c216a1806973.html",
+   "title": "Trường đổi tiết học liên kết, cho nghỉ thứ bảy",
+   "image": "",
+   "categorySlug": "giao-duc",
+   "categoryName": "Giáo dục"
+  },
+  {
+   "id": "1806847",
+   "categoryId": "216",
+   "url": "/giao-duc/dung-lien-ket-ngoai-ngu-2-hoc-sinh-mac-ket-truoc-nguong-cua-lop-10-c216a1806847.html",
+   "title": "Dừng liên kết ngoại ngữ 2: Học sinh ‘mắc kẹt’ trước ngưỡng cửa lớp 10",
+   "image": "",
+   "categorySlug": "giao-duc",
+   "categoryName": "Giáo dục"
+  },
+  {
+   "id": "1806875",
+   "categoryId": "216",
+   "url": "/giao-duc/so-gd-dt-len-tieng-ve-clip-giao-vien-nuoc-ngoai-danh-hoc-sinh-lop-2-o-can-tho-c216a1806875.html",
+   "title": "Sở GD-ĐT lên tiếng về clip giáo viên nước ngoài đánh học sinh lớp 2 ở Cần Thơ",
+   "image": "",
+   "categorySlug": "giao-duc",
+   "categoryName": "Giáo dục"
+  },
+  {
+   "id": "1807022",
+   "categoryId": "76",
+   "url": "/an-choi/trai-nghiem-cua-dan-le-khi-den-tham-dia-diem-quay-phim-ha-canh-noi-anh-o-thuy-si-c76a1807022.html",
+   "title": "Trải nghiệm của Đan Lê khi đến thăm địa điểm quay phim 'Hạ cánh nơi anh' ở Thụy Sĩ",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/adt1793347466-0c3fcc2355-dan-le-1-3509-141-0-1421-__anh_cat_3_2.jpg",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1807016",
+   "categoryId": "76",
+   "url": "/an-choi/5-mon-an-tu-ngai-cuu-co-loi-cho-suc-khoe-xuong-khop-c76a1807016.html",
+   "title": "5 món ăn từ ngải cứu có lợi cho sức khỏe xương khớp",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793347098-1e3048bd54-trung-chien1__anh_cat_3_2.jpg",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1807000",
+   "categoryId": "76",
+   "url": "/an-choi/ha-noi-ruc-sac-hoang-hon-qua-nhung-goc-pho-thu-c76a1807000.html",
+   "title": "Hà Nội rực sắc hoàng hôn qua những góc phố thu",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793346101-5d8cc9b689-wm2-taml5982-4290__anh_cat_3_2.jpg",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1806983",
+   "categoryId": "76",
+   "url": "/an-choi/cuoi-tuan-an-gi-tham-khao-5-mam-com-gia-dinh-dep-mat-cua-me-dam-9x-c76a1806983.html",
+   "title": "Cuối tuần ăn gì? Tham khảo 5 mâm cơm gia đình đẹp mắt của mẹ đảm 9x",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793342661-6d59ed46f4-edit-edit-mamcomcuoituan2__anh_cat_3_2.jpg",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1806958",
+   "categoryId": "76",
+   "url": "/an-choi/nha-co-duoc-vi-nhu-cung-dien-go-o-mien-tay-c76a1806958.html",
+   "title": "Nhà cổ được ví như 'cung điện gỗ' ở miền Tây",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793334444-e9b3be5ed5-2aobor8fa3im3qzmmgdn7a35p__anh_cat_3_2.jpg",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1732125",
+   "categoryId": "76",
+   "url": "/an-choi/nhung-mon-luoc-hay-bi-lam-sai-c76a1732125.html",
+   "title": "Những món luộc hay bị làm sai",
+   "image": "",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1806845",
+   "categoryId": "76",
+   "url": "/an-choi/quan-pho-gia-binh-dan-25000-dong-giua-trung-tam-ha-noi-c76a1806845.html",
+   "title": "Quán phở giá bình dân 25.000 đồng giữa trung tâm Hà Nội",
+   "image": "",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1806901",
+   "categoryId": "76",
+   "url": "/an-choi/bi-cong-ty-du-lich-tu-choi-cu-96-tuoi-dung-ai-tu-phuot-tay-tang-c76a1806901.html",
+   "title": "Bị công ty du lịch từ chối, cụ 96 tuổi dùng AI tự phượt Tây Tạng",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/255x170/adt1793326683-3ddc549d53-fd9cbd4eb9c6e45148f5716e9__anh_cat_3_2.jpg",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1806722",
+   "categoryId": "76",
+   "url": "/an-choi/vi-sao-ham-xuong-cang-lau-nuoc-cang-duc-c76a1806722.html",
+   "title": "Vì sao hầm xương càng lâu nước càng đục?",
+   "image": "",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1806725",
+   "categoryId": "76",
+   "url": "/an-choi/vo-chong-hhen-nie-dua-con-gai-tro-lai-chon-hen-ho-c76a1806725.html",
+   "title": "Vợ chồng H’Hen Niê đưa con gái trở lại chốn hẹn hò",
+   "image": "",
+   "categorySlug": "an-choi",
+   "categoryName": "Ăn - chơi"
+  },
+  {
+   "id": "1807077",
+   "categoryId": "415",
+   "url": "/tin-tuc-quoc-te/vo-ho-bang-himalaya-lu-du-cuon-phang-nhieu-cong-trinh-du-lich-tai-bhutan-c415a1807077.html",
+   "title": "Vỡ hồ băng Himalaya, lũ dữ cuốn phăng nhiều công trình du lịch tại Bhutan",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/455x303/image_dai_dien_gifg-ho-bang-1793356585-612-width740height495-gif2mp4_anh_cat_4_3.jpg",
+   "categorySlug": "tin-tuc-quoc-te",
+   "categoryName": "Thế giới"
+  },
+  {
+   "id": "1806510",
+   "categoryId": "48",
+   "url": "/bong-da/carrick-co-toi-da-3-co-hoi-de-giu-ghe-nong-mainoo-bao-tin-vui-cho-mu-clip-tin-nong-c48a1806510.html",
+   "title": "Carrick có tối đa 3 cơ hội để giữ ghế nóng, Mainoo báo tin vui cho MU (Clip tin nóng)",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/255x170/4dczz-1793199611-671-width740height495.jpg",
+   "categorySlug": "bong-da",
+   "categoryName": "Bóng đá"
+  },
+  {
+   "id": "1806572",
+   "categoryId": "64",
+   "url": "/ban-tre-cuoc-song/tiec-sinh-nhat-80-tuoi-xa-hoa-cua-hoang-hau-brunei-c64a1806572.html",
+   "title": "Tiệc sinh nhật 80 tuổi xa hoa của Hoàng hậu Brunei",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/255x170/adt1793235102-6abbe35e77-fdown-vn-instagram-video-__anh_cat_3_2.webp",
+   "categorySlug": "ban-tre-cuoc-song",
+   "categoryName": "Bạn trẻ - Cuộc sống"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "'Quái vật trên không' CH-47 Chinook xoay vòng lao thẳng xuống đất ở Bosnia, 4 người thiệt mạng",
+   "cat": "Thế giới",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/1793351941-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/tin-tuc-quoc-te/quai-vat-tren-khong-ch-47-chinook-xoay-vong-lao-thang-xuong-dat-o-bosnia-4-nguoi-thiet-mang-c415a1807051.html"
+  },
+  {
+   "title": "Vỡ hồ băng Himalaya, lũ dữ cuốn phăng nhiều công trình du lịch tại Bhutan",
+   "cat": "Thế giới",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/1793354402-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/tin-tuc-quoc-te/vo-ho-bang-himalaya-lu-du-cuon-phang-nhieu-cong-trinh-du-lich-tai-bhutan-c415a1807077.html"
+  },
+  {
+   "title": "Từ 30/10, loạt đường quanh sân bay Tân Sơn Nhất điều chỉnh thế nào",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/1793329501-video9x16-nhieu-tuyen-duong-quanh-san-bay-tan-son-nhat-doi-huong-luu-t-1793324193-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/tu-30-10-loat-tuyen-duong-quanh-san-bay-tan-son-nhat-dieu-chinh-the-nao-c762a1806920.html"
+  },
+  {
+   "title": "Choáng ngợp cây cầu đường sắt vượt biển dài nhất thế giới ở Trung Quốc",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/1793318041-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/choang-ngop-cay-cau-duong-sat-vuot-bien-dai-nhat-the-gioi-o-trung-quoc-c762a1806836.html"
+  },
+  {
+   "title": "Một cầu thủ bóng đá thường chuẩn bị gì trước mỗi trận đấu?",
+   "cat": "Bóng đá",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-20/1792489987-video9x16-videoshort-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/bong-da/mot-cau-thu-bong-da-thuong-chuan-bi-gi-truoc-moi-tran-dau-c48a1803766.html"
+  },
+  {
+   "title": "Nghị sĩ ẩu đả, ném ghế trong Quốc hội Armenia khiến nhiều người bị thương",
+   "cat": "Thế giới",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/1793283602-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/tin-tuc-quoc-te/nghi-si-au-da-nem-ghe-trong-quoc-hoi-armenia-khien-nhieu-nguoi-bi-thuong-c415a1806806.html"
+  },
+  {
+   "title": "Người dân nơm nớp sống trong chung cư doạ sập tại TPHCM",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/1793332082-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/nguoi-dan-nom-nop-song-trong-chung-cu-doa-sap-tai-tphcm-c762a1806939.html"
+  },
+  {
+   "title": "Toa tàu cao tốc văng ngổn ngang sau tai nạn ở Tây Ban Nha",
+   "cat": "Thế giới",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/1793263081-video9x16-hai-tau-cao-toc-dam-nhau-o-tay-ban-nha-it-nhat-68-nguoi-chet-1793234383-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/tin-tuc-quoc-te/toa-tau-cao-toc-vang-ngon-ngang-sau-tai-nan-o-tay-ban-nha-c415a1806752.html"
+  },
+  {
+   "title": "TPHCM: Đường vào nhà hàng ngập sâu, khách phải đi thuyền tự chế",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/1793207941-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/tphcm-duong-vao-nha-hang-ngap-sau-khach-phai-di-thuyen-tu-che-c762a1806531.html"
+  },
+  {
+   "title": "Lính cứu hỏa vui mừng khi cơn mưa giúp hạ nhiệt cháy rừng ở Indonesia",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/1793194382-video9x16-linh-cuu-hoa-indonesia-an-mung-khi-mua-do-xuong-sau-nhieu-th-1793174115-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/linh-cuu-hoa-vui-mung-khi-con-mua-giup-ha-nhiet-chay-rung-o-indonesia-c762a1806501.html"
+  },
+  {
+   "title": "Lương người Việt có theo kịp lạm phát?",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/1793149141-video9x16-luong-nguoi-viet-co-theo-kip-lam-phat-1793085011-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/luong-nguoi-viet-co-theo-kip-lam-phat-c762a1806271.html"
+  },
+  {
+   "title": "Harry Kane và những trường hợp giành Quả bóng Vàng mà không có danh hiệu lớn",
+   "cat": "Bóng đá",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-28/1793172421-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/bong-da/harry-kane-va-nhung-truong-hop-gianh-qua-bong-vang-ma-khong-co-danh-hieu-lon-c48a1806395.html"
+  },
+  {
+   "title": "Mr. Pips và những màn khoe giàu trước khi bị bắt vì cáo buộc chiếm đoạt 1.568 tỷ đồng",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-27/1793091242-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/mr-pips-va-nhung-man-khoe-giau-truoc-khi-bi-bat-vi-cao-buoc-chiem-doat-1568-ty-dong-c762a1806146.html"
+  },
+  {
+   "title": "Gió lớn đẩy tàu chở hơn 3.300 người va chạm hai tàu hàng ở Đức",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-27/1793059922-video9x16-gio-manh-day-tau-du-lich-cho-hon-3-300-nguoi-va-cham-hai-tau-1793016162-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/gio-lon-day-tau-cho-hon-3300-nguoi-va-cham-hai-tau-hang-o-duc-c762a1805949.html"
+  },
+  {
+   "title": "Mưa lũ cuốn trôi hàng chục ôtô ở Mexico",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-26/1793018881-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/mua-lu-cuon-troi-hang-chuc-oto-o-mexico-c762a1805891.html"
+  },
+  {
+   "title": "Harry Kane đã ‘tiến hóa’ thế nào kể từ khi gia nhập Bayern Munich?",
+   "cat": "Bóng đá",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-27/1793089802-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/bong-da/harry-kane-da-tien-hoa-the-nao-ke-tu-khi-gia-nhap-bayern-munich-c48a1806130.html"
+  },
+  {
+   "title": "Toà nhà cao tầng ở Kenya đổ sập trong vài giây, nhiều người mắc kẹt dưới đống đổ nát",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-26/1793021462-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/toa-nha-cao-tang-o-kenya-do-sap-trong-vai-giay-nhieu-nguoi-mac-ket-duoi-dong-do-nat-c762a1805901.html"
+  },
+  {
+   "title": "Cầu đi bộ qua sông Sài Gòn được thi công dưới lòng sông ra sao?",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-26/1792984502-video9x16-1080-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/video-cau-di-bo-qua-song-sai-gon-duoc-thi-cong-duoi-long-song-ra-sao-c762a1805719.html"
+  },
+  {
+   "title": "Giá điện tăng giảm thế nào khi áp biểu giá 5 bậc?",
+   "cat": "Media",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-26/1792973162-video9x16-gia-dien-thay-doi-the-nao-khi-ap-bieu-gia-5-bac-1792942169-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/media-24h/gia-dien-thay-doi-the-nao-khi-ap-bieu-gia-5-bac-c762a1805648.html"
+  },
+  {
+   "title": "Cô gái buông vô-lăng, cúi xuống chỉnh dép khi ôtô đang chạy khiến thầy dạy lái hú hồn",
+   "cat": "Bạn trẻ - Cuộc sống",
+   "image": "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-25/1792915137-video9x16-c---g--i-bu--ng-v---l--ng--c--i-xu---ng-ch---nh-d--p-khi---t-----ang-ch---y-khi---n-th---y-d---y-l--i-h---h---n-poster9x16.jpg",
+   "url": "https://www.24h.com.vn/ban-tre-cuoc-song/co-gai-buong-vo-lang-cui-xuong-chinh-dep-khi-oto-dang-chay-khien-thay-day-lai-hu-hon-c64a1805538.html"
+  }
+ ],
+ "social": [
+  {
+   "name": "Anh Tú",
+   "time": "6 giờ trước",
+   "text": "“Giá như mình ở lại Villa”: Lời cá của cựu tuyển trạch viên về Tielemans",
+   "avatar": "",
+   "images": [
+    "https://icdn.24h.com.vn/upload/3-2026/images/2026-08-18/2-vfmncx-7-68-1787026422-width740height495.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/gia-nhu-minh-o-lai-villa-loi-ca-cua-cuu-tuyen-trach-vien-ve-tielemans-id1793343349643754545357164210546.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Quân Vũ",
+   "time": "4 giờ trước",
+   "text": "Cristiano Ronaldo và những cột mốc ghi bàn vĩ đại trong sự nghiệp kéo dài 24 năm",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKTs5nRNWIa71TBtbthSXrXj6fptOE41mV4TXyfKXshfr_LTk8=s96-c",
+   "images": [
+    "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-30/Ronaldo-ghi-hat-trick-sau-908-ngay-tien-gan-cot-moc-1000-ban-vi-dai-21-1793318548-531-width740height457.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/cristiano-ronaldo-va-nhung-cot-moc-ghi-ban-vi-dai-trong-su-nghiep-keo-dai-24-nam-id17933527636464337814811184528.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Văn Phong",
+   "time": "5 giờ trước",
+   "text": "Tevez: “Rời MU sang Man City là để trả đũa Sir Alex”",
+   "avatar": "",
+   "images": [
+    "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-29/c1szz-1793256246-671-width740height495.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/tevez-roi-mu-sang-man-city-la-de-tra-dua-sir-alex-id179334367364409315561391456224572.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Trang Võ",
+   "time": "6 giờ trước",
+   "text": "Mourinho “bẻ lái” phút chót, Bernardo Silva quay xe từ Barca sang Real",
+   "avatar": "",
+   "images": [
+    "https://cdn-mxh24h.24hstatic.com/upload/4-2026/images/2026-10-30/1793343141-897-mxh24h.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/mourinho-be-lai-phut-chot-bernardo-silva-quay-xe-tu-barca-sang-real-id17933431416435279266027954420026.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Đình Quý",
+   "time": "9 giờ trước",
+   "text": "Messi có thể rời Inter Miami năm 2028, ai cứu đế chế 1,35 tỷ USD?",
+   "avatar": "",
+   "images": [
+    "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-06/anhdaidien-1791280418-611-width740height495_anh_cat_4_3.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/messi-co-the-roi-inter-miami-nam-2028-ai-cuu-de-che-135-ty-usd-id1793333729641919162507154073466.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Bá Thắng",
+   "time": "3 giờ trước",
+   "text": "Messi ở nhà khác xa trên sân: Khó chiều, thích một mình và không giỏi nói lời yêu",
+   "avatar": "",
+   "images": [
+    "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-23/duoc-de-cu-Qua-bong-vang-Messi-van-khong-chac-du-Gala-messi-qu----b--ng-v--ng-ok-1-copy-1792747497-553-width740height493.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/messi-o-nha-khac-xa-tren-san-kho-chieu-thich-mot-minh-va-khong-gioi-noi-loi-yeu-id17933531686465007471852781343167954.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Ngọc Nguyễn",
+   "time": "7 giờ trước",
+   "text": "Gary Neville: “Nhà Glazer phải bán toàn bộ MU, đủ rồi”",
+   "avatar": "",
+   "images": [
+    "https://icdn.24h.com.vn/upload/2-2026/images/2026-06-04/skysports-glazer-family-man-utd_5370958-1780534606-142-width1600height900.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/gary-neville-nha-glazer-phai-ban-toan-bo-mu-du-roi-id179334295764384864914161198194197.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Xuân Nam",
+   "time": "5 giờ trước",
+   "text": "MU khủng hoảng, Rooney nổi giận còn Schmeichel khơi lại tranh cãi về Hojlund",
+   "avatar": "",
+   "images": [
+    "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-03/frsbjnb-1791023031-374-width740height495_anh_cat_4_3.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/mu-khung-hoang-rooney-noi-gian-con-schmeichel-khoi-lai-tranh-cai-ve-hojlund-id179334349264400440481623636874.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Hóng VAR",
+   "time": "5 giờ trước",
+   "text": "Bắt như lên đồng, De Gea vẫn bất lực nhìn Fiorentina trượt dốc trụ hạng",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocK9OqIKoOvVGfC-98h-XU9r-CIcJ3t4jI8uy9yvWgj6ditOJg=s96-c",
+   "images": [
+    "https://icdn.24h.com.vn/upload/2-2026/images/2026-05-11/de-gea-mu-juventus-fiorentina-495-copy-1778483190-251-width740height495_anh_cat_4_3.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/bat-nhu-len-dong-de-gea-van-bat-luc-nhin-fiorentina-truot-doc-tru-hang-id1793343798644136576538407915116295.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Quân Vũ",
+   "time": "13 giờ trước",
+   "text": "Messi dễ vượt mặt Ronaldo đoạt Super Ballon d'Or: Lý do vì sao?",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKTs5nRNWIa71TBtbthSXrXj6fptOE41mV4TXyfKXshfr_LTk8=s96-c",
+   "images": [
+    "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-24/ronaldo_messi-1792848891-33-width740height495_anh_cat_4_3.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/messi-de-vuot-mat-ronaldo-doat-super-ballon-dor-ly-do-vi-sao-id179333364664198302342308432800411.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Đoàn Linh",
+   "time": "2 giờ trước",
+   "text": "Man Utd khó xử: Tiếp tục chờ Rashford hay đẩy đi ngay tháng 1/2027?",
+   "avatar": "https://s120-ava-talk.zadn.vn/b/1/4/d/14/120/3d9719e6654c8773ef3fe527a5362187.jpg",
+   "images": [
+    "https://cdn-mxh24h.24hstatic.com/upload/4-2026/images/2026-10-30/1793355632-96-mxh24h.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/man-utd-kho-xu-tiep-tuc-cho-rashford-hay-day-di-ngay-thang-1-2027-id1793355632646705274438147674413766.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  },
+  {
+   "name": "Quân Vũ",
+   "time": "16 giờ trước",
+   "text": "Tốc độ ghi bàn của Mbappé sánh ngang huyền thoại, chỉ thua 4 tượng đài tại Real",
+   "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKTs5nRNWIa71TBtbthSXrXj6fptOE41mV4TXyfKXshfr_LTk8=s96-c",
+   "images": [
+    "https://icdn.24h.com.vn/upload/4-2026/images/2026-10-26/Mbappe-lap-ky-luc-100-ban-cho-Real-Tottenham-pha-dop-lich-su-truoc-Chelsea-mabppe_ngoisao1-1793016484-284-width740height493.jpg"
+   ],
+   "url": "https://www.24h.com.vn/mxh/toc-do-ghi-ban-cua-mbappe-sanh-ngang-huyen-thoai-chi-thua-4-tuong-dai-tai-real-id179332501963750509709109612560.html?utm_source=web24h&utm_medium=box_tin&utm_term=pc&utm_campaign=home"
+  }
+ ]
+}

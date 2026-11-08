@@ -11,11 +11,12 @@
 .body::after { content: ""; position: absolute; top: 0; right: 0; z-index: 1; width: 38px; height: 100%; background: linear-gradient(270deg,#fff,transparent); pointer-events: none; }
 .item { display: flex; flex-direction: column; width: 280px; min-height: 170px; margin-right: 16px; padding: 13px; border: 1px solid #ececec; border-radius: 4px; background: #fff; }
 .top { display: flex; align-items: center; margin-bottom: 9px; }
-.ava { flex: 0 0 30px; width: 30px; height: 30px; margin-right: 9px; border-radius: 50%; background: linear-gradient(135deg,#dce9d1,#cbd9e4); }
+.ava { flex: 0 0 30px; overflow: hidden; width: 30px; height: 30px; margin-right: 9px; border-radius: 50%; background: linear-gradient(135deg,#dce9d1,#cbd9e4); }
+.ava img, .img img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .name { padding-top: 1px; color: #333; font-size: 12px; font-weight: 700; }
 .time { color: #999; font-size: 10px; line-height: 1.3; }
 .text { display: -webkit-box; margin: 0; overflow: hidden; color: #444; font-size: 12px; line-height: 1.5; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
 .imgs { display: flex; gap: 6px; margin-top: 9px; }
-.img { flex: 1; height: 58px; border-radius: 3px; background: #e6e8e4; }
+.img { flex: 1; overflow: hidden; height: 58px; border-radius: 3px; background: #e6e8e4; }
 .act { display: flex; gap: 15px; margin-top: auto; padding-top: 10px; color: #888; font-size: 10px; }
 @media (max-width: 600px) { .head { align-items: flex-start; flex-direction: column; gap: 8px; padding: 12px; } .logo { font-size: 16px; } .menu { gap: 5px; } .item { width: 245px; } .body { padding-left: 10px; } }

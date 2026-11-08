@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import HScroll from "../../../components/common/HScroll";
+import { ArticleLink } from "../../../components/common/ArticleParts";
 import styles from "./shorts.module.css";
 
 const TABS = ["Mới nhất", "Tin tức", "Bóng đá - Thể thao", "Giải trí"];
 
-// shorts: [{ title, cat }] - ảnh dọc tỉ lệ 9:16
+// shorts: [{ title, cat, image, url }] - ảnh poster dọc tỉ lệ 9:16, url là bài/video gốc
 export default function ShortsBox({ shorts = [] }) {
   if (shorts.length === 0) return null;
   return (
@@ -18,13 +19,29 @@ export default function ShortsBox({ shorts = [] }) {
       <div className={styles.body}>
         <HScroll step={430}>
           {shorts.map((s, i) => (
-            <a key={s.title} href="#shorts" className={styles.item} style={{ "--h": (i * 47) % 360 }}>
+            <ArticleLink
+              key={s.url || s.title}
+              article={{ url: s.url, title: s.title }}
+              className={styles.item}
+              style={{ "--h": (i * 47) % 360 }}
+            >
+              {s.image && (
+                <img
+                  className={styles.poster}
+                  src={s.image}
+                  alt={s.title}
+                  loading="lazy"
+                  decoding="async"
+                  referrerPolicy="no-referrer"
+                  onError={(e) => { e.currentTarget.style.display = "none"; }}
+                />
+              )}
               <span className={styles.play} aria-hidden="true" />
               <span className={styles.info}>
                 <span className={styles.itemCate}>{s.cat}</span>
                 <span className={styles.itemTit}>{s.title}</span>
               </span>
-            </a>
+            </ArticleLink>
           ))}
         </HScroll>
       </div>
