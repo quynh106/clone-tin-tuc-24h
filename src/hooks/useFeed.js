@@ -1,21 +1,14 @@
-import { useEffect, useState } from "react";
-import { fetchFeed } from "../services/rssClient";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { loadFeed } from "../store/feedSlice";
 
 export function useFeed(feed) {
-  // Lưu kèm tên feed để biết kết quả đã tải thuộc feed nào, không cần setState đồng bộ trong effect.
-  const [result, setResult] = useState({ feed: null, data: [], error: null });
+  const dispatch = useDispatch();
+  const entry = useSelector((s) => s.feed.byFeed[feed]);
 
   useEffect(() => {
-    let ignore = false;
-    fetchFeed(feed)
-      .then((data) => !ignore && setResult({ feed, data, error: null }))
-      .catch((error) => !ignore && setResult({ feed, data: [], error }));
-    return () => {
-      ignore = true; // tránh set state khi đã chuyển trang
-    };
-  }, [feed]);
+    if (feed) dispatch(loadFeed(feed));
+  }, [feed, dispatch]);
 
-  if (result.feed !== feed) return { status: "loading", data: [], error: null };
-  if (result.error) return { status: "error", data: [], error: result.error };
-  return { status: "success", data: result.data, error: null };
+  return entry ?? { status: "loading", data: [], error: null };
 }

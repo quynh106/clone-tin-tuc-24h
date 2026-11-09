@@ -9,7 +9,9 @@ const SKIP_IMG = /(logo|icon|avatar|blank|pixel|spacer|1x1|loading)/i;
 function byLocalName(root, names) {
   const accepted = new Set(names);
   return [...root.getElementsByTagName("*")].filter((node) =>
-    accepted.has((node.localName || node.nodeName.split(":").pop()).toLowerCase()),
+    accepted.has(
+      (node.localName || node.nodeName.split(":").pop()).toLowerCase(),
+    ),
   );
 }
 
@@ -44,13 +46,24 @@ function extractImage(item, descriptionHtml) {
   const media = byLocalName(item, ["content", "thumbnail", "enclosure"]);
   const candidates = media
     .map((node) => ({
-      url: node.getAttribute("url") || node.getAttribute("href") || node.getAttribute("src") || "",
-      type: (node.getAttribute("type") || node.getAttribute("medium") || "").toLowerCase(),
+      url:
+        node.getAttribute("url") ||
+        node.getAttribute("href") ||
+        node.getAttribute("src") ||
+        "",
+      type: (
+        node.getAttribute("type") ||
+        node.getAttribute("medium") ||
+        ""
+      ).toLowerCase(),
     }))
     .filter(({ url }) => url);
 
-  const isImage = ({ url, type }) => type.startsWith("image") || type === "image" || IMG_EXT.test(url);
-  const picked = candidates.find(isImage) || candidates.find(({ type }) => !type.startsWith("video"));
+  const isImage = ({ url, type }) =>
+    type.startsWith("image") || type === "image" || IMG_EXT.test(url);
+  const picked =
+    candidates.find(isImage) ||
+    candidates.find(({ type }) => !type.startsWith("video"));
   if (picked) {
     const url = absoluteUrl(picked.url);
     if (url) return url;
@@ -63,8 +76,23 @@ function extractImage(item, descriptionHtml) {
   return firstImgFromHtml(encoded?.textContent || "");
 }
 
+// Đổi & trần thành &amp;, bỏ qua các đoạn CDATA (trong CDATA & được phép)
+function sanitizeXml(text) {
+  return text
+    .split(/(<!\[CDATA\[[\s\S]*?\]\]>)/)
+    .map((part, i) =>
+      i % 2 === 1
+        ? part
+        : part.replace(
+            /&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)/g,
+            "&amp;",
+          ),
+    )
+    .join("");
+}
+
 export function parseRss(xmlText) {
-  const doc = new DOMParser().parseFromString(xmlText, "text/xml");
+  const doc = new DOMParser().parseFromString(sanitizeXml(xmlText), "text/xml");
   if (doc.querySelector("parsererror")) throw new Error("RSS không hợp lệ");
   return [...doc.querySelectorAll("item")].map(toArticle);
 }
@@ -77,7 +105,9 @@ function toArticle(item) {
   // Nếu <description> chứa thẻ con thật (không CDATA/escape) thì lấy innerHTML
   const descEl = item.querySelector("description");
   const rawDesc =
-    descEl && descEl.children.length > 0 ? descEl.innerHTML : get("description");
+    descEl && descEl.children.length > 0
+      ? descEl.innerHTML
+      : get("description");
   const html = new DOMParser().parseFromString(rawDesc, "text/html");
 
   const time = Date.parse(get("pubDate"));
