@@ -79,8 +79,6 @@ export const SITE_CONFIG = {
   name: "24h.com.vn",
   baseUrl: "https://www.24h.com.vn",
 
-  rssBaseUrl: "https://www.24h.com.vn/upload/rss/",
-
   homeFeed: "trangchu24h",
 };
 
@@ -92,21 +90,4 @@ export const getCategoryById = (id) => {
 // Tìm chuyên mục theo slug
 export const getCategoryBySlug = (slug) => {
   return CATEGORIES.find((category) => category.slug === slug);
-};
-
-// Lấy RSS URL của chuyên mục
-export const getCategoryRssUrl = (category) => {
-  if (!category?.feed) return null;
-
-  return `${SITE_CONFIG.rssBaseUrl}${category.feed}.rss`;
-};
-
-// Lấy danh sách RSS phụ để sử dụng khi cần
-// Không tự động coi RSS phụ là RSS chính thức của chuyên mục.
-export const getCategoryRelatedRssUrls = (category) => {
-  if (!category?.relatedFeeds) return [];
-
-  return category.relatedFeeds.map(
-    (feed) => `${SITE_CONFIG.rssBaseUrl}${feed}.rss`,
-  );
 };
