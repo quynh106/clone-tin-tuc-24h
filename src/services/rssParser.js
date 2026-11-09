@@ -117,6 +117,7 @@ function toArticle(item) {
     id: articleId ?? link,
     categoryId,
     categorySlug: cat?.slug ?? null,
+    categoryName: cat?.name ?? null,
     title: get("title"),
     summary: html.body.textContent.replace(/\s+/g, " ").trim(),
     image: extractImage(item, rawDesc),
