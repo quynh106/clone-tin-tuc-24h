@@ -1,32 +1,210 @@
 [
   {
-    "id": "9990001",
-    "categoryId": "48",
-    "categorySlug": "bong-da",
-    "title": "Tiêu đề bài viết bóng đá mẫu",
-    "summary": "Đây là phần tóm tắt minh họa để nhóm xây dựng giao diện.",
-    "image": "",
-    "url": "/bong-da/bai-viet-mau-c48a9990001.html",
-    "pubDate": "2026-10-29T08:00:00+07:00"
-  },
-  {
-    "id": "9990002",
-    "categoryId": "407",
-    "categorySlug": "thoi-trang-hi-tech",
-    "title": "Tiêu đề bài viết Hi-tech mẫu",
-    "summary": "Dữ liệu mẫu dùng để kiểm tra hiển thị ảnh, tiêu đề và tóm tắt.",
-    "image": "",
-    "url": "/thoi-trang-hi-tech/bai-viet-mau-c407a9990002.html",
-    "pubDate": "2026-10-29T09:00:00+07:00"
-  },
-  {
-    "id": "9990003",
+    "id": "1806007",
     "categoryId": "46",
     "categorySlug": "tin-tuc-trong-ngay",
+    "categoryName": "Tin tức trong ngày",
+    "title": "Vụ án lừa đảo chiếm đoạt tài sản được làm rõ sau nhiều ngày điều tra",
+    "summary": "Vụ án lừa đảo chiếm đoạt tài sản được làm rõ sau nhiều ngày điều tra. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/tin-tuc-trong-ngay/vu-an-lua-dao-chiem-doat-tai-san-duoc-lam-ro-sau-nhieu-ngay-dieu-tra-c46a1806007.html",
+    "pubDate": "2026-10-31T10:21:00+07:00"
+  },
+  {
+    "id": "1806014",
+    "categoryId": "48",
+    "categorySlug": "bong-da",
+    "categoryName": "Bóng đá",
+    "title": "Trận đại chiến Ngoại hạng Anh gây chú ý trước giờ bóng lăn",
+    "summary": "Trận đại chiến Ngoại hạng Anh gây chú ý trước giờ bóng lăn. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/bong-da/tran-dai-chien-ngoai-hang-anh-gay-chu-y-truoc-gio-bong-lan-c48a1806014.html",
+    "pubDate": "2026-10-31T10:12:00+07:00"
+  },
+  {
+    "id": "1806021",
+    "categoryId": "161",
+    "categorySlug": "kinh-doanh",
+    "categoryName": "Kinh doanh",
+    "title": "Giá vàng trong nước biến động trong tuần này",
+    "summary": "Giá vàng trong nước biến động trong tuần này. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/kinh-doanh/gia-vang-trong-nuoc-bien-dong-trong-tuan-nay-c161a1806021.html",
+    "pubDate": "2026-10-31T10:03:00+07:00"
+  },
+  {
+    "id": "1806028",
+    "categoryId": "52",
+    "categorySlug": "thi-truong-tieu-dung",
+    "categoryName": "Thị trường tiêu dùng",
+    "title": "Giá thực phẩm tăng nhẹ so với tháng trước",
+    "summary": "Giá thực phẩm tăng nhẹ so với tháng trước. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/thi-truong-tieu-dung/gia-thuc-pham-tang-nhe-so-voi-thang-truoc-c52a1806028.html",
+    "pubDate": "2026-10-31T09:54:00+07:00"
+  },
+  {
+    "id": "1806035",
+    "categoryId": "415",
+    "categorySlug": "tin-tuc-quoc-te",
+    "categoryName": "Thế giới",
+    "title": "Hội nghị thượng đỉnh khu vực thu hút sự theo dõi của nhiều nước",
+    "summary": "Hội nghị thượng đỉnh khu vực thu hút sự theo dõi của nhiều nước. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/tin-tuc-quoc-te/hoi-nghi-thuong-dinh-khu-vuc-thu-hut-su-theo-doi-cua-nhieu-nuoc-c415a1806035.html",
+    "pubDate": "2026-10-31T09:45:00+07:00"
+  },
+  {
+    "id": "1806042",
+    "categoryId": "62",
+    "categorySlug": "suc-khoe",
+    "categoryName": "Sức khỏe",
+    "title": "Thói quen buổi sáng giúp cải thiện sức khỏe lâu dài",
+    "summary": "Thói quen buổi sáng giúp cải thiện sức khỏe lâu dài. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/suc-khoe/thoi-quen-buoi-sang-giup-cai-thien-suc-khoe-lau-dai-c62a1806042.html",
+    "pubDate": "2026-10-31T09:36:00+07:00"
+  },
+  {
+    "id": "1806049",
+    "categoryId": "731",
+    "categorySlug": "giai-tri",
+    "categoryName": "Giải trí",
+    "title": "Nam diễn viên trẻ chia sẻ về vai diễn gây tranh luận",
+    "summary": "Nam diễn viên trẻ chia sẻ về vai diễn gây tranh luận. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/giai-tri/nam-dien-vien-tre-chia-se-ve-vai-dien-gay-tranh-luan-c731a1806049.html",
+    "pubDate": "2026-10-31T09:27:00+07:00"
+  },
+  {
+    "id": "1806056",
+    "categoryId": "748",
+    "categorySlug": "xe-may-xe-dap",
+    "categoryName": "Xe máy - Xe đạp",
+    "title": "Mẫu xe ga mới ra mắt với nhiều nâng cấp",
+    "summary": "Mẫu xe ga mới ra mắt với nhiều nâng cấp. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/xe-may-xe-dap/mau-xe-ga-moi-ra-mat-voi-nhieu-nang-cap-c748a1806056.html",
+    "pubDate": "2026-10-31T09:18:00+07:00"
+  },
+  {
+    "id": "1806063",
+    "categoryId": "747",
+    "categorySlug": "o-to",
+    "categoryName": "Ô tô",
+    "title": "Mẫu SUV cỡ nhỏ công bố giá bán chính thức",
+    "summary": "Mẫu SUV cỡ nhỏ công bố giá bán chính thức. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/o-to/mau-suv-co-nho-cong-bo-gia-ban-chinh-thuc-c747a1806063.html",
+    "pubDate": "2026-10-31T09:09:00+07:00"
+  },
+  {
+    "id": "1806070",
+    "categoryId": "407",
+    "categorySlug": "thoi-trang-hi-tech",
+    "categoryName": "Thời trang Hi-tech",
+    "title": "Điện thoại gập ra mắt với thiết kế mới",
+    "summary": "Điện thoại gập ra mắt với thiết kế mới. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/thoi-trang-hi-tech/dien-thoai-gap-ra-mat-voi-thiet-ke-moi-c407a1806070.html",
+    "pubDate": "2026-10-31T09:00:00+07:00"
+  },
+  {
+    "id": "1806077",
+    "categoryId": "55",
+    "categorySlug": "cong-nghe-thong-tin",
+    "categoryName": "Công nghệ thông tin",
+    "title": "Trí tuệ nhân tạo thay đổi cách làm việc",
+    "summary": "Trí tuệ nhân tạo thay đổi cách làm việc. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/cong-nghe-thong-tin/tri-tue-nhan-tao-thay-doi-cach-lam-viec-c55a1806077.html",
+    "pubDate": "2026-10-31T08:51:00+07:00"
+  },
+  {
+    "id": "1806084",
+    "categoryId": "78",
+    "categorySlug": "dep",
+    "categoryName": "Đẹp",
+    "title": "Bí quyết dưỡng da được nhiều chị em yêu thích",
+    "summary": "Bí quyết dưỡng da được nhiều chị em yêu thích. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/dep/bi-quyet-duong-da-duoc-nhieu-chi-em-yeu-thich-c78a1806084.html",
+    "pubDate": "2026-10-31T08:42:00+07:00"
+  },
+  {
+    "id": "1806091",
+    "categoryId": "101",
+    "categorySlug": "the-thao",
+    "categoryName": "Thể thao",
+    "title": "Vận động viên Việt Nam giành thành tích ấn tượng",
+    "summary": "Vận động viên Việt Nam giành thành tích ấn tượng. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/the-thao/van-dong-vien-viet-nam-gianh-thanh-tich-an-tuong-c101a1806091.html",
+    "pubDate": "2026-10-31T08:33:00+07:00"
+  },
+  {
+    "id": "1806098",
+    "categoryId": "64",
+    "categorySlug": "ban-tre-cuoc-song",
+    "categoryName": "Bạn trẻ - Cuộc sống",
+    "title": "Bạn trẻ chia sẻ câu chuyện đáng suy ngẫm",
+    "summary": "Bạn trẻ chia sẻ câu chuyện đáng suy ngẫm. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/ban-tre-cuoc-song/ban-tre-chia-se-cau-chuyen-dang-suy-ngam-c64a1806098.html",
+    "pubDate": "2026-10-31T08:24:00+07:00"
+  },
+  {
+    "id": "1806105",
+    "categoryId": "51",
+    "categorySlug": "an-ninh-xa-hoi",
+    "categoryName": "An ninh - Xã hội",
+    "title": "Đường dây buôn lậu bị cơ quan công an triệu tập",
+    "summary": "Đường dây buôn lậu bị cơ quan công an triệu tập. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/an-ninh-xa-hoi/duong-day-buon-lau-bi-co-quan-cong-an-trieu-tap-c51a1806105.html",
+    "pubDate": "2026-10-31T08:15:00+07:00"
+  },
+  {
+    "id": "1806112",
+    "categoryId": "216",
+    "categorySlug": "giao-duc",
+    "categoryName": "Giáo dục",
+    "title": "Kỳ thi tốt nghiệp có nhiều thay đổi đáng chú ý",
+    "summary": "Kỳ thi tốt nghiệp có nhiều thay đổi đáng chú ý. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/giao-duc/ky-thi-tot-nghiep-co-nhieu-thay-doi-dang-chu-y-c216a1806112.html",
+    "pubDate": "2026-10-31T08:06:00+07:00"
+  },
+  {
+    "id": "1806119",
+    "categoryId": "76",
+    "categorySlug": "an-choi",
+    "categoryName": "Ăn - chơi",
+    "title": "Quán ăn đường phố thu hút thực khách",
+    "summary": "Quán ăn đường phố thu hút thực khách. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/an-choi/quan-an-duong-pho-thu-hut-thuc-khach-c76a1806119.html",
+    "pubDate": "2026-10-31T07:57:00+07:00"
+  },
+  {
+    "id": "1806126",
+    "categoryId": "762",
+    "categorySlug": "media-24h",
+    "categoryName": "Multimedia",
+    "title": "Clip ghi lại khoảnh khắc được chia sẻ nhiều",
+    "summary": "Clip ghi lại khoảnh khắc được chia sẻ nhiều. Đây là phần tóm tắt minh họa để dựng giao diện, sẽ thay bằng dữ liệu RSS thật ở giai đoạn 3.",
+    "image": "",
+    "url": "/media-24h/clip-ghi-lai-khoanh-khac-duoc-chia-se-nhieu-c762a1806126.html",
+    "pubDate": "2026-10-31T07:48:00+07:00"
+  },
+  {
+    "id": "1806133",
+    "categoryId": "46",
+    "categorySlug": "tin-tuc",
     "title": "Tiêu đề tin tức mẫu",
     "summary": "Đây chưa phải dữ liệu lấy từ RSS thật.",
     "image": "",
-    "url": "/tin-tuc-trong-ngay/bai-viet-mau-c46a9990003.html",
+    "url": "/tin-tuc/bai-viet-mau-c46a9990003.html",
     "pubDate": "2026-10-29T10:00:00+07:00"
   }
 ]
