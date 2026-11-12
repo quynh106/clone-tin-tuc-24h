@@ -1,0 +1,2 @@
+const items = ["Cao Hải Ninh ‘khổ sở’ vì đóng vai vợ Trương Trí Lâm", "‘Anh trai’ Vũ Thịnh sắp cưới bạn gái diễn viên", "Đám cưới Vương Anh Ole và Mai Bừng"];
+export default function EntertainmentSection() { return <section className="topic-section"><div className="section-heading"><h2>Giải trí</h2><div><span>Đời sống showbiz</span><span>Phim</span><span>Âm nhạc</span><span>Sao Việt</span></div></div><div className="topic-grid">{items.map((title) => <a key={title} href="https://www.24h.com.vn/giai-tri-c731.html">{title}</a>)}</div></section>; }

@@ -1,0 +1,5 @@
+.wrap { display: grid; grid-template-columns: minmax(0,1fr) 260px; gap: 28px; align-items: start; }
+.left,.right { min-width: 0; }
+.pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px; margin-bottom: 30px; }
+@media(max-width:900px) { .wrap { grid-template-columns: 1fr; } .right { display:none; } }
+@media(max-width:600px) { .pair { grid-template-columns: 1fr; gap: 24px; } }
