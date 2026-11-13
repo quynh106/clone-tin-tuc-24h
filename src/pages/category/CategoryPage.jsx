@@ -1,12 +1,18 @@
+
 import { useParams } from "react-router-dom";
+import CategoryHeader from "./CategoryHeader";
 
 export default function CategoryPage() {
-  const { categoryPage } = useParams();
+    const { categoryPage } = useParams();
 
-  return (
-    <main className="page-placeholder">
-      <h1>Trang chuyên mục</h1>
-      <p>Đường dẫn: {categoryPage}</p>
-    </main>
-  );
+    return (
+        <>
+            <CategoryHeader />
+
+            <main className="page-placeholder">
+                <h1>Trang chuyên mục</h1>
+                <p>Đường dẫn: {categoryPage}</p>
+            </main>
+        </>
+    );
 }
