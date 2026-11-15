@@ -1,0 +1,7 @@
+.slot { display: flex; flex-direction: column; align-items: center; margin: 0 auto; max-width: 100%; }
+.label { align-self: flex-end; margin-bottom: 2px; color: #999; font-size: 10px; letter-spacing: .4px; text-transform: uppercase; }
+.link { display: block; max-width: 100%; line-height: 0; border: 1px solid #eee; }
+.link img { display: block; width: 100%; height: auto; max-width: 100%; }
+.billboard { width: 970px; }
+.leaderboard { width: 728px; }
+.rectangle { width: 300px; }

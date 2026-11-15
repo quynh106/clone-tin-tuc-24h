@@ -1,4 +1,5 @@
 import { ArticleLink, ArticleImage } from "../../../components/common/ArticleParts";
+import AdSlot from "../../../components/common/AdSlot";
 import styles from "./hero.module.css";
 
 export default function HeroSection({ main, subs = [], list = [] }) {
@@ -45,7 +46,7 @@ export default function HeroSection({ main, subs = [], list = [] }) {
       )}
 
       <aside className={styles.colAside} aria-label="Vị trí quảng cáo">
-        <div className={styles.ad}>VỊ TRÍ QUẢNG CÁO</div>
+        <AdSlot size="rectangle" />
       </aside>
     </section>
   );
