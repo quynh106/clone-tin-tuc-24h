@@ -66,6 +66,12 @@ Mở địa chỉ localhost do Vite hiển thị trong Terminal.
 - Báo nhóm trước khi chỉnh sửa file dùng chung như router.jsx và package.json.
 - Commit theo mẫu: feat:, fix:, style:, refactor:, docs:.
 
-## 7. Trạng thái
+## 7. Dữ liệu trang chủ
+
+- `useHomeData()` lấy RSS qua Redux (`feedSlice` → `loadFeed`), không gọi `fetchFeed` trực tiếp.
+- Các feed trang chủ khai báo ở `src/pages/home/homeCategories.js` (`HOME_FEEDS`).
+- Có dữ liệu chụp sẵn (`src/mocks`) làm nền; RSS tải xong sẽ thay bằng tin mới. Tất cả feed lỗi → hiện `ErrorBox` có nút Tải lại.
+
+## 8. Trạng thái
 
 Dự án đã khởi tạo bằng React và Vite. Các trang, chức năng RSS và giao diện sẽ được phát triển theo từng giai đoạn.
