@@ -17,7 +17,7 @@ export default function SocialSlider({ title = "Fan bóng đá nói gì?", posts
         </ul>
       </header>
       <div className={styles.body}>
-        <HScroll step={660}>
+        <HScroll step={680}>
           {posts.map((p, index) => {
             // images: mảng URL ảnh (hoặc số lượng ảnh ở dữ liệu mẫu cũ)
             const images = Array.isArray(p.images) ? p.images.filter(Boolean) : [];

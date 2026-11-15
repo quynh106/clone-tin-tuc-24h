@@ -42,3 +42,6 @@
   .row { row-gap: 24px; margin-bottom: 26px; }
   .heroSection, .socialSection, .marketSection, .entertainmentSection { margin-bottom: 26px; }
 }
+.notice { width: 100%; margin: 0 0 16px; }
+.notice > div { min-height: 0; padding: 8px 12px; }
+.ad { margin: 0 auto 34px; }

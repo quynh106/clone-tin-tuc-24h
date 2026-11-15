@@ -1,6 +1,7 @@
 
 import Loading from "../../components/common/Loading";
 import ErrorBox from "../../components/common/ErrorBox";
+import AdSlot from "../../components/common/AdSlot";
 import SocialSlider from "../../components/common/SocialSlider";
 import WidgetGoldPrice from "../../components/common/WidgetGoldPrice";
 import WidgetCrypto from "../../components/common/WidgetCrypto";
@@ -26,47 +27,25 @@ function Row({ children, className = "" }) {
 }
 
 export default function HomePage() {
-  const { status, error, data } = useHomeData();
+  const { status, isFetching, error, data, retry } = useHomeData();
 
-  // 1. Trạng thái đang tải dữ liệu
-  if (status === "loading") {
-    return (
-      <main className={styles.page}>
-        <Loading text="Đang tải tin tức mới nhất..." />
-      </main>
-    );
-  }
-
-  // 2. Trạng thái xảy ra lỗi
-  if (status === "error") {
-    return (
-      <main className={styles.page}>
-        <ErrorBox
-          message={
-            error?.message ||
-            "Không thể tải dữ liệu trang chủ. Vui lòng thử lại sau."
-          }
-        />
-      </main>
-    );
-  }
-
-  // 3. Kiểm tra dữ liệu tin tức
+  // 1. Dữ liệu không hợp lệ (không có dữ liệu để dựng trang)
   if (!data || !data.byCategory) {
     return (
       <main className={styles.page}>
         <ErrorBox
           message="Dữ liệu trang chủ không hợp lệ. Vui lòng kiểm tra lại nguồn dữ liệu."
+          onRetry={retry}
         />
       </main>
     );
   }
 
-  // 4. Khởi tạo dữ liệu
+  // 2. Khởi tạo dữ liệu
   const by = data.byCategory;
   const widgets = data.widgets || {};
 
-  // 5. Lấy dữ liệu an toàn
+  // 3. Lấy dữ liệu an toàn
   const getArticles = (slug, count, from = 0) => {
     return take(by, slug, count, from);
   };
@@ -76,6 +55,19 @@ export default function HomePage() {
       className={styles.page}
       aria-label="Trang chủ tin tức 24h"
     >
+      {/* Trạng thái tải RSS: không chặn trang vì đã có dữ liệu chụp sẵn */}
+      {status === "error" ? (
+        <div className={styles.notice}>
+          <ErrorBox message={error?.message} onRetry={retry} />
+        </div>
+      ) : (
+        isFetching && (
+          <div className={styles.notice}>
+            <Loading text="Đang cập nhật tin mới nhất..." />
+          </div>
+        )
+      )}
+
       {/* =========================
           1. TIN NỔI BẬT
       ========================== */}
@@ -86,6 +78,8 @@ export default function HomePage() {
           list={data.list || []}
         />
       </section>
+
+      <AdSlot size="billboard" className={styles.ad} />
 
       {/* =========================
           2. TIN TỨC TRONG NGÀY
@@ -171,6 +165,8 @@ export default function HomePage() {
           articles={getArticles("kinh-doanh", 4, 6)}
         />
       </section>
+
+      <AdSlot size="leaderboard" className={styles.ad} />
 
       {/* =========================
           12. GIẢI TRÍ

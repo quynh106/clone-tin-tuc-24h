@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useResolvedImage } from "../../hooks/useResolvedImage";
 import { placeholderFor, toInternalPath } from "./articleHelpers";
 
 export function ArticleLink({ article, className, children, ...rest }) {
@@ -28,32 +30,29 @@ function alternateHost(url) {
   return "";
 }
 
+// Thứ tự thử ảnh: ảnh gốc -> host CDN còn lại -> ảnh og:image lấy từ trang bài -> ảnh thay thế.
 export function ArticleImage({ article, className, loading = "lazy" }) {
-  const fallback = placeholderFor(article);
-  const src = typeof article?.image === "string" ? article.image.trim() : "";
+  const own = typeof article?.image === "string" ? article.image.trim() : "";
+  const [fail, setFail] = useState({ own, count: 0 });
+  const failures = fail.own === own ? fail.count : 0; // đổi ảnh gốc thì làm lại từ đầu
 
-  const handleError = (event) => {
-    const img = event.currentTarget;
-    const retry = alternateHost(src);
-    // Thử host khác đúng 1 lần, sau đó dùng ảnh thay thế (và không lặp onError).
-    if (retry && !img.dataset.retried && img.src !== retry) {
-      img.dataset.retried = "1";
-      img.src = retry;
-      return;
-    }
-    img.onerror = null;
-    img.src = fallback;
-  };
+  const base = [own, alternateHost(own)].filter(Boolean);
+  const resolved = useResolvedImage(failures >= base.length ? article?.url : null);
+  const candidates = [...base, resolved].filter(Boolean);
+
+  const src = candidates[failures] || placeholderFor(article);
 
   return (
     <img
       className={className}
-      src={src || fallback}
+      src={src}
       alt={article?.title || "Ảnh minh họa tin tức"}
       loading={loading}
       decoding="async"
       referrerPolicy="no-referrer"
-      onError={handleError}
+      onError={() => {
+        if (candidates[failures]) setFail({ own, count: failures + 1 });
+      }}
     />
   );
 }

@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import mockArticles from "../../mocks/articles.json";
 import snapshot from "../../mocks/homeSnapshot.json";
 import widgets from "../../mocks/widgets.json";
-import { fetchFeed } from "../../services/rssClient";
+import { loadFeed } from "../../store/feedSlice";
 import { groupByCategory } from "./homeData";
 import { HOME_FEEDS, toHomeArticle } from "./homeCategories";
 
@@ -32,10 +33,11 @@ function buildData(rssArticles) {
 
   // Hero luôn lấy bài có ảnh.
   const withImage = ordered.filter(hasImage);
+  const subs = withImage.slice(1, 4);
   return {
     main: withImage[0] ?? ordered[0] ?? null,
-    subs: withImage.slice(1, 4),
-    list: ordered.filter((a) => a !== withImage[0] && !withImage.slice(1, 4).includes(a)).slice(0, 12),
+    subs,
+    list: ordered.filter((a) => a !== withImage[0] && !subs.includes(a)).slice(0, 12),
     byCategory,
     widgets: {
       ...widgets,
@@ -45,27 +47,47 @@ function buildData(rssArticles) {
   };
 }
 
-// Trả về { status, error, data } như cũ. Trang hiện ngay dữ liệu có sẵn,
-// RSS tải xong sẽ tự thay bằng tin mới + ảnh đúng từng bài.
+/**
+ * Dữ liệu trang chủ, lấy qua Redux (feedSlice của nhóm).
+ * Trả về:
+ *  - status: "loading" | "success" | "error"
+ *      loading: các feed đang tải và chưa có gì để hiển thị
+ *      error:   mọi feed đều lỗi (trang vẫn hiển thị dữ liệu chụp sẵn)
+ *  - isFetching: còn feed đang tải (dùng cho dòng "đang cập nhật")
+ *  - error: Error | null
+ *  - data: { main, subs, list, byCategory, widgets }
+ *  - retry: tải lại các feed
+ */
 export default function useHomeData() {
-  const [rssArticles, setRssArticles] = useState([]);
+  const dispatch = useDispatch();
+  const byFeed = useSelector((s) => s.feed.byFeed);
+
+  const load = useCallback(() => {
+    HOME_FEEDS.forEach(({ feed }) => dispatch(loadFeed(feed)));
+  }, [dispatch]);
 
   useEffect(() => {
-    let ignore = false;
-    Promise.allSettled(HOME_FEEDS.map(({ feed }) => fetchFeed(feed))).then((results) => {
-      if (ignore) return;
-      const articles = results.flatMap((result, i) =>
-        result.status === "fulfilled"
-          ? result.value.map((a) => toHomeArticle(a, HOME_FEEDS[i].slug))
-          : [],
-      );
-      setRssArticles(articles);
-    });
-    return () => {
-      ignore = true;
-    };
-  }, []);
+    load();
+  }, [load]);
 
-  const data = useMemo(() => buildData(rssArticles), [rssArticles]);
-  return { status: "success", error: null, data };
+  const data = useMemo(() => {
+    const rss = HOME_FEEDS.flatMap(({ feed, slug }) =>
+      (byFeed[feed]?.data ?? []).map((a) => toHomeArticle(a, slug)),
+    );
+    return buildData(rss);
+  }, [byFeed]);
+
+  const entries = HOME_FEEDS.map(({ feed }) => byFeed[feed]);
+  const isFetching = entries.some((e) => !e || e.status === "loading");
+  const allFailed = entries.every((e) => e?.status === "error");
+
+  return {
+    status: allFailed ? "error" : "success",
+    isFetching,
+    error: allFailed
+      ? new Error("Không tải được tin mới nhất. Đang hiển thị dữ liệu đã lưu.")
+      : null,
+    data,
+    retry: load,
+  };
 }

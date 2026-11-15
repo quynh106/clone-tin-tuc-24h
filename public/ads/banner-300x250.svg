@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e65100"/><stop offset="1" stop-color="#ffb300"/></linearGradient></defs>
+<rect width="300" height="250" fill="url(#g)"/>
+<circle cx="270.0" cy="50.0" r="175.0" fill="#fff" fill-opacity=".08"/>
+<circle cx="234.0" cy="250.0" r="125.0" fill="#fff" fill-opacity=".08"/>
+<text x="15.0" y="115.0" fill="#fff" font-family="Arial,sans-serif" font-weight="bold" font-size="22">Mua sắm cuối tuần</text>
+<text x="15.0" y="180.0" fill="#fff" fill-opacity=".9" font-family="Arial,sans-serif" font-size="13.2">Giảm đến 50% hàng nghìn sản phẩm</text>
+<rect x="15.0" y="205.0" rx="6" width="120.0" height="25.0" fill="#fff"/>
+<text x="75.0" y="223.75" text-anchor="middle" fill="#e65100" font-family="Arial,sans-serif" font-weight="bold" font-size="14">Xem ưu đãi</text>
+</svg>
