@@ -1,9 +1,13 @@
 import { useLocation, useParams } from "react-router-dom";
 import { parseArticleUrl } from "../../utils/parseArticleUrl";
 import { useArticle } from "../../hooks/useArticle";
+import { getCategoryById } from "../../config/categories";
 import Loading from "../../components/common/Loading";
 import ErrorBox from "../../components/common/ErrorBox";
-import ArticleCard from "../../components/common/ArticleCard";
+import ArticleHeader from "./components/ArticleHeader";
+import ArticleBody from "./components/ArticleBody";
+import RelatedNews from "./components/RelatedNews";
+import styles from "./article.module.css";
 
 export default function ArticlePage() {
   const { articleSlug } = useParams();
@@ -11,28 +15,26 @@ export default function ArticlePage() {
   const { categoryId, articleId } = parseArticleUrl(articleSlug);
   const { status, article, related } = useArticle(categoryId, articleId);
   const shown = location.state?.article ?? article;
+  const category = getCategoryById(categoryId);
 
-  if (!shown && status === "loading") return <Loading />;
-  if (!shown && status === "error")
-    return <ErrorBox message="Không tải được bài viết." />;
-  if (!shown)
-    return <ErrorBox message="Bài đã ra khỏi feed. Bạn có thể đọc bài gốc trên 24h." />;
+  let content;
+  if (!shown && status === "loading") content = <Loading />;
+  else if (!shown && status === "error")
+    content = <ErrorBox message="Không tải được bài viết." />;
+  else if (!shown)
+    content = (
+      <ErrorBox message="Bài đã ra khỏi feed. Bạn có thể đọc bài gốc trên 24h." />
+    );
+  else
+    content = (
+      <>
+        <div className={styles.main}>
+          <ArticleHeader article={shown} category={category} />
+          <ArticleBody article={shown} />
+        </div>
+        <RelatedNews items={related} />
+      </>
+    );
 
-  return (
-    <main>
-      <h1>{shown.title}</h1>
-      {shown.pubDate && (
-        <time>{new Date(shown.pubDate).toLocaleString("vi-VN")}</time>
-      )}
-      {shown.image && <img src={shown.image} alt={shown.title} />}
-      <p>{shown.summary}</p>
-      <a href={shown.url} target="_blank" rel="noreferrer">
-        Đọc bài gốc trên 24h
-      </a>
-      <h2>Tin liên quan</h2>
-      {related.map((a) => (
-        <ArticleCard key={a.id} article={a} variant="horizontal" showSummary />
-      ))}
-    </main>
-  );
+  return <main className={styles.page}>{content}</main>;
 }
