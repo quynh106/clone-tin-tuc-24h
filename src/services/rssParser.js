@@ -118,10 +118,15 @@ function toArticle(item) {
     categoryId,
     categorySlug: cat?.slug ?? null,
     categoryName: cat?.name ?? null,
-    title: get("title"),
+    title: decodeEntities(get("title")),
     summary: html.body.textContent.replace(/\s+/g, " ").trim(),
     image: extractImage(item, rawDesc),
     url: link,
     pubDate: Number.isNaN(time) ? null : new Date(time).toISOString(),
   };
+}
+
+function decodeEntities(s = "") {
+  return new DOMParser().parseFromString(s, "text/html").documentElement
+    .textContent;
 }

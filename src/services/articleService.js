@@ -12,7 +12,7 @@ export async function getArticle(categoryId, articleId) {
   return list.find((a) => a.id === String(articleId)) ?? null;
 }
 
-export async function getRelated(categoryId, articleId, limit = 5) {
+export async function getRelated(categoryId, articleId, limit = 6) {
   const feed = feedOfCategory(getCategoryById(categoryId));
   if (!feed) return [];
   const list = await fetchFeed(feed);

@@ -7,6 +7,7 @@ import ErrorBox from "../../components/common/ErrorBox";
 import ArticleHeader from "./components/ArticleHeader";
 import ArticleBody from "./components/ArticleBody";
 import RelatedNews from "./components/RelatedNews";
+import ArticleSidebar from "./components/ArticleSidebar";
 import styles from "./article.module.css";
 
 export default function ArticlePage() {
@@ -31,8 +32,9 @@ export default function ArticlePage() {
         <div className={styles.main}>
           <ArticleHeader article={shown} category={category} />
           <ArticleBody article={shown} />
+          <RelatedNews items={related} />
         </div>
-        <RelatedNews items={related} />
+        <ArticleSidebar />
       </>
     );
 
