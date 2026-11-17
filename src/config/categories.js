@@ -91,3 +91,7 @@ export const getCategoryById = (id) => {
 export const getCategoryBySlug = (slug) => {
   return CATEGORIES.find((category) => category.slug === slug);
 };
+// Tìm chuyên mục theo đường dẫn URL chính thức
+export const getCategoryByPath = (path) => {
+  return CATEGORIES.find((category) => category.path === path);
+};
