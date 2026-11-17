@@ -1,0 +1,26 @@
+
+.site-header {
+    width: 100%;
+    background: #fff;
+}
+
+.site-header__top {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 20px;
+}
+
+.site-header__logo {
+    color: #d71920;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.site-header__menu {
+    display: flex;
+    gap: 20px;
+    padding: 12px 20px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
