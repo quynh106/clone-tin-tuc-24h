@@ -8,6 +8,7 @@ import ArticleHeader from "./components/ArticleHeader";
 import ArticleBody from "./components/ArticleBody";
 import RelatedNews from "./components/RelatedNews";
 import ArticleSidebar from "./components/ArticleSidebar";
+import ArticleBottom from "./components/ArticleBottom";
 import styles from "./article.module.css";
 
 export default function ArticlePage() {
@@ -33,8 +34,9 @@ export default function ArticlePage() {
           <ArticleHeader article={shown} category={category} />
           <ArticleBody article={shown} />
           <RelatedNews items={related} />
+          <ArticleBottom currentId={shown.id} />
         </div>
-        <ArticleSidebar />
+        <ArticleSidebar currentId={shown.id} />
       </>
     );
 

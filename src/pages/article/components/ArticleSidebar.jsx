@@ -1,44 +1,38 @@
-import { Link } from "react-router-dom";
-import ArticleCard from "../../../components/common/ArticleCard";
+import SidebarList from "../../../components/common/SidebarList";
 import { useFeed } from "../../../hooks/useFeed";
 import styles from "../article.module.css";
 
-function SideBlock({ title, feed, to, limit = 4 }) {
+function FeedBlock({ title, feed, to, currentId, maxItems = 4 }) {
   const { status, data } = useFeed(feed);
-  if (status !== "success" || !data.length) return null;
+  if (status !== "success") return null;
+  const items = data.filter((a) => a.id !== currentId);
   return (
-    <section className={styles.sideBlock}>
-      <div className={styles.blockHead}>
-        <h2 className={styles.blockTitle}>{title}</h2>
-        {to && (
-          <Link to={to} className={styles.more}>
-            Xem thêm ›
-          </Link>
-        )}
-      </div>
-      {data.slice(0, limit).map((a) => (
-        <ArticleCard
-          key={a.id}
-          article={a}
-          variant="horizontal"
-          size="sm"
-          showCategory={false}
-          showTime={false}
-        />
-      ))}
-    </section>
+    <div className={styles.sideBlock}>
+      <SidebarList
+        title={title}
+        articles={items}
+        withThumb={maxItems}
+        maxItems={maxItems}
+        to={to}
+      />
+    </div>
   );
 }
 
-export default function ArticleSidebar() {
+export default function ArticleSidebar({ currentId }) {
   return (
     <aside className={styles.sidebar}>
-      <SideBlock
-        title="TIN TỨC THỊ TRƯỜNG"
+      <FeedBlock
+        title="Tin tức thị trường"
         feed="taichinhbatdongsan"
         to="/kinh-doanh-c161.html"
+        currentId={currentId}
       />
-      <SideBlock title="BÓNG ĐÁ" feed="bongda" to="/bong-da-c48.html" />
+      <FeedBlock
+        title="Phi thường - kỳ quặc"
+        feed="phithuongkyquac"
+        currentId={currentId}
+      />
     </aside>
   );
 }

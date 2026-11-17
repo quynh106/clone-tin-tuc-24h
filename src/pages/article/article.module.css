@@ -164,3 +164,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.bottomBlock {
+  margin-top: 32px;
+}
+.hotList {
+  display: flex;
+  flex-direction: column;
+}
+.hotList > article {
+  padding: 14px 0;
+  border-bottom: 1px solid #ededed;
+}
+.hotList > article:last-child {
+  border-bottom: 0;
+}
