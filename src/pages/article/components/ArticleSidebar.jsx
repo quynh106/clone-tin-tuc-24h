@@ -29,8 +29,8 @@ export default function ArticleSidebar({ currentId }) {
         currentId={currentId}
       />
       <FeedBlock
-        title="Phi thường - kỳ quặc"
-        feed="phithuongkyquac"
+        title="An ninh - Hình sự"
+        feed="anninhhinhsu"
         currentId={currentId}
       />
     </aside>
