@@ -48,6 +48,7 @@
 }
 .sideBlock {
   margin-bottom: 28px;
+  position: relative;
 }
 
 .metaBar {
@@ -230,4 +231,18 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.sideMore {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #51ae5a;
+  text-decoration: none;
+  z-index: 1;
+}
+.sideMore:hover {
+  text-decoration: underline;
 }
