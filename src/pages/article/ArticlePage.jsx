@@ -10,6 +10,10 @@ import RelatedNews from "./components/RelatedNews";
 import ArticleSidebar from "./components/ArticleSidebar";
 import ArticleBottom from "./components/ArticleBottom";
 import styles from "./article.module.css";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { selectCurrentUser } from "../../store/authSlice";
+import { addViewed } from "../../store/viewedSlice";
 
 export default function ArticlePage() {
   const { articleSlug } = useParams();
@@ -18,6 +22,13 @@ export default function ArticlePage() {
   const { status, article, related } = useArticle(categoryId, articleId);
   const shown = location.state?.article ?? article;
   const category = getCategoryById(categoryId);
+  const dispatch = useDispatch();
+  const user = useSelector(selectCurrentUser);
+  useEffect(() => {
+    if (user && shown)
+      dispatch(addViewed({ email: user.email, article: shown }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.email, shown?.id]);
 
   let content;
   if (!shown && status === "loading") content = <Loading />;

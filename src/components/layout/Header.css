@@ -1,57 +1,51 @@
 .site-header {
-    width: 100%;
-    background: #fff;
+  width: 100%;
+  background: #fff;
 }
 
 .site-header__top {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 16px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 20px;
 }
 
 .site-header__logo {
-    color: #d71920;
-    font-size: 28px;
-    font-weight: 700;
-    text-decoration: none;
+  color: #d71920;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .site-header__menu {
-    display: flex;
-    gap: 20px;
-    padding: 12px 20px;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 0 20px;
+  min-height: 48px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .site-header__menu a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.site-header__menu {
-    display: flex;
-    align-items: center;
-    gap: 0;
-    padding: 0 20px;
-    min-height: 48px;
-    overflow-x: auto;
-    white-space: nowrap;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .menu-link {
-    display: inline-flex;
-    align-items: center;
-    padding: 14px 12px;
-    color: #333;
-    font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
-    border-right: 1px solid #eee;
-    transition: color 0.2s;
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 12px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-right: 1px solid #eee;
+  transition: color 0.2s;
 }
 
 .menu-link:hover {
-    color: #d71920;
+  color: #d71920;
 }

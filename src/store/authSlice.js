@@ -25,7 +25,12 @@ export const registerUser = createAsyncThunk(
     if (getState().auth.users.some((u) => u.email === e)) {
       return rejectWithValue("Email này đã được đăng ký.");
     }
-    return { name: name.trim(), email: e, passwordHash: await hash(password) };
+    return {
+      name: name.trim(),
+      email: e,
+      passwordHash: await hash(password),
+      createdAt: new Date().toISOString(),
+    };
   },
 );
 
@@ -48,6 +53,13 @@ const authSlice = createSlice({
     logout(state) {
       state.currentEmail = null;
     },
+    updateProfile(state, { payload }) {
+      const u = state.users.find((x) => x.email === state.currentEmail);
+      if (!u) return;
+      for (const k of ["name", "phone", "birthday", "address", "gender"]) {
+        if (k in payload) u[k] = payload[k];
+      }
+    },
   },
   extraReducers: (builder) => {
     builder
@@ -61,7 +73,7 @@ const authSlice = createSlice({
   },
 });
 
-export const { logout } = authSlice.actions;
+export const { logout, updateProfile } = authSlice.actions;
 export const selectCurrentUser = (s) =>
   s.auth.users.find((u) => u.email === s.auth.currentEmail) ?? null;
 export default authSlice.reducer;

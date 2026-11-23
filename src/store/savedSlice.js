@@ -19,8 +19,11 @@ const savedSlice = createSlice({
         ? list.filter((a) => a.id !== article.id)
         : [article, ...list];
     },
+    clearSaved(state, { payload: email }) {
+      state.byUser[email] = [];
+    },
   },
 });
 
-export const { toggleSave } = savedSlice.actions;
+export const { toggleSave, clearSaved } = savedSlice.actions;
 export default savedSlice.reducer;
