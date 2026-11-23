@@ -3,9 +3,28 @@ import { Link } from "react-router-dom";
 import { formatLongDate } from "../../../utils/formatDate";
 import styles from "../article.module.css";
 
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useLocation, useNavigate } from "react-router-dom"; // thay dòng import Link cũ
+import { selectCurrentUser } from "../../../store/authSlice";
+import { toggleSave } from "../../../store/savedSlice";
+
 export default function ArticleHeader({ article, category }) {
   const [copied, setCopied] = useState(false);
   const name = category?.name ?? article.categoryName ?? "Tin tức";
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const user = useSelector(selectCurrentUser);
+  const saved = useSelector((s) =>
+    user
+      ? (s.saved.byUser[user.email] ?? []).some((a) => a.id === article.id)
+      : false,
+  );
+
+  const save = () => {
+    if (!user) return navigate("/dang-nhap", { state: { from: location } });
+    dispatch(toggleSave({ email: user.email, article }));
+  };
 
   const share = async () => {
     try {
@@ -43,8 +62,8 @@ export default function ArticleHeader({ article, category }) {
           Sự kiện: <span className={styles.tag}>{name}</span>
         </div>
         <div className={styles.buttons}>
-          <button type="button" className={styles.btnSave}>
-            LƯU BÀI
+          <button type="button" className={styles.btnSave} onClick={save}>
+            {saved ? "ĐÃ LƯU" : "LƯU BÀI"}
           </button>
           <button type="button" className={styles.btnShare} onClick={share}>
             {copied ? "ĐÃ CHÉP LINK" : "CHIA SẺ"}
