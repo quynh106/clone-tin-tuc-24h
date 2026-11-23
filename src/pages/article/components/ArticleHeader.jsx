@@ -1,11 +1,15 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+
 import { formatLongDate } from "../../../utils/formatDate";
 import styles from "../article.module.css";
+
+import { Link } from "react-router-dom";
+import { useSaveArticle } from "../../../hooks/useSaveArticle";
 
 export default function ArticleHeader({ article, category }) {
   const [copied, setCopied] = useState(false);
   const name = category?.name ?? article.categoryName ?? "Tin tức";
+  const { saved, toggle } = useSaveArticle(article);
 
   const share = async () => {
     try {
@@ -43,8 +47,8 @@ export default function ArticleHeader({ article, category }) {
           Sự kiện: <span className={styles.tag}>{name}</span>
         </div>
         <div className={styles.buttons}>
-          <button type="button" className={styles.btnSave}>
-            LƯU BÀI
+          <button type="button" className={styles.btnSave} onClick={toggle}>
+            {saved ? "BỎ LƯU BÀI" : "LƯU BÀI"}
           </button>
           <button type="button" className={styles.btnShare} onClick={share}>
             {copied ? "ĐÃ CHÉP LINK" : "CHIA SẺ"}
