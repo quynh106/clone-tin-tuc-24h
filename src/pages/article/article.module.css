@@ -163,14 +163,36 @@
   .relatedGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .hotTop,
+  .themeGrid {
+    grid-template-columns: 1fr;
+  }
+  .hotTopRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .bottomBlock {
   margin-top: 32px;
 }
+
+.hotTop {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+}
+.hotTopRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
 .hotList {
   display: flex;
   flex-direction: column;
+  margin-top: 16px;
 }
 .hotList > article {
   padding: 14px 0;
@@ -178,4 +200,34 @@
 }
 .hotList > article:last-child {
   border-bottom: 0;
+}
+
+.moreWrap {
+  text-align: center;
+  margin-top: 16px;
+}
+.moreBtn {
+  background: #51ae5a;
+  color: #fff;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 22px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.moreBtn:hover {
+  background: #78b43d;
+}
+
+.themeGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 14px;
+  margin-top: 12px;
+}
+.themeSide {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
